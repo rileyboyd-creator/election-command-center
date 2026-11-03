@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "verified_on": "2026-11-03",
+  "definition": "Official state polling-hour sources; UTC conversions use Nov 3 standard time. Only audited states listed. Others remain unavailable; local/court extensions may apply.",
+  "windows": [
+    {
+      "state": "IN",
+      "first": "2026-11-03T23:00:00Z",
+      "last": "2026-11-04T00:00:00Z",
+      "note": "6 p.m. local; Eastern and Central zones.",
+      "source": "https://www.in.gov/sos/elections/voter-information/files/2026-Election-Day-Handbook.pdf"
+    },
+    {
+      "state": "GA",
+      "first": "2026-11-04T00:00:00Z",
+      "last": "2026-11-04T00:00:00Z",
+      "note": "7 p.m. Eastern. Extensions may delay county reporting.",
+      "source": "https://sos.ga.gov/how-to-guide/how-guide-voting"
+    },
+    {
+      "state": "FL",
+      "first": "2026-11-04T00:00:00Z",
+      "last": "2026-11-04T01:00:00Z",
+      "note": "7 p.m. local; Central-time Panhandle closes one hour later.",
+      "source": "https://dos.fl.gov/elections/contacts/frequently-asked-questions/faq-voting/"
+    },
+    {
+      "state": "NC",
+      "first": "2026-11-04T00:30:00Z",
+      "last": "2026-11-04T00:30:00Z",
+      "note": "7:30 p.m. Eastern. Check state notices for polling-place extensions.",
+      "source": "https://www.ncsbe.gov/results-data/election-results/election-night-reporting-timeline"
+    },
+    {
+      "state": "OH",
+      "first": "2026-11-04T00:30:00Z",
+      "last": "2026-11-04T00:30:00Z",
+      "note": "7:30 p.m. Eastern.",
+      "source": "https://www.ohiosos.gov/office/media-center/categories/press-releases/2026-11-02"
+    },
+    {
+      "state": "TX",
+      "first": "2026-11-04T01:00:00Z",
+      "last": "2026-11-04T02:00:00Z",
+      "note": "7 p.m. local; Mountain-time counties close later.",
+      "source": "https://www.sos.state.tx.us/elections/laws/advisory2026-21-november-3-election-law-calendar.shtml"
+    },
+    {
+      "state": "MI",
+      "first": "2026-11-04T01:00:00Z",
+      "last": "2026-11-04T02:00:00Z",
+      "note": "8 p.m. local; Central-time areas close later.",
+      "source": "https://www.michigan.gov/sos/resources/news/2026/11/02/with-less-than-24-hours-before-polls-open-on-election-day-over"
+    },
+    {
+      "state": "KS",
+      "first": "2026-11-04T01:00:00Z",
+      "last": "2026-11-04T03:00:00Z",
+      "note": "Default 7 p.m. local. Counties may close as late as 8 p.m.; includes Central/Mountain zones. Range uses latest permitted closing, not a verified county schedule.",
+      "source": "https://sos.ks.gov/elections/voter-information.html"
+    },
+    {
+      "state": "AL",
+      "first": "2026-11-04T00:00:00Z",
+      "last": "2026-11-04T01:00:00Z",
+      "note": "7 p.m. local; range allows Eastern-observing localities. Check local election office.",
+      "source": "https://www.sos.alabama.gov/newsroom/secretary-state-wes-allen-issues-important-election-day-reminders-ahead-november-3-general"
+    },
+    {
+      "state": "IA",
+      "first": "2026-11-04T02:00:00Z",
+      "last": "2026-11-04T02:00:00Z",
+      "note": "8 p.m. Central.",
+      "source": "https://sos.iowa.gov/news-resources/secretary-pate-encourages-iowans-make-plan-vote-2026-general-election"
+    },
+    {
+      "state": "LA",
+      "first": "2026-11-04T02:00:00Z",
+      "last": "2026-11-04T02:00:00Z",
+      "note": "8 p.m. Central for Tuesday election.",
+      "source": "https://www.sos.la.gov/elections-voting/ways-to-vote"
+    },
+    {
+      "state": "NE",
+      "first": "2026-11-04T02:00:00Z",
+      "last": "2026-11-04T02:00:00Z",
+      "note": "Simultaneous 8 p.m. Central / 7 p.m. Mountain.",
+      "source": "https://sos.nebraska.gov/elections/election-day-faq"
+    },
+    {
+      "state": "ID",
+      "first": "2026-11-04T03:00:00Z",
+      "last": "2026-11-04T04:00:00Z",
+      "note": "8 p.m. local. Results begin after 8 p.m. Pacific / 9 p.m. Mountain.",
+      "source": "https://voteidaho.gov/idaho-general-election/"
+    },
+    {
+      "state": "AK",
+      "first": "2026-11-04T05:00:00Z",
+      "last": "2026-11-04T06:00:00Z",
+      "note": "8 p.m. local. Alaska and western Aleutian time zones; initial results posted after 9 p.m. Alaska time.",
+      "source": "https://www.elections.alaska.gov/calendar/"
+    }
+  ]
+}

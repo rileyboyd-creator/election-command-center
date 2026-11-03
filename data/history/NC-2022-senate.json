@@ -1,0 +1,3210 @@
+{
+  "id": "US-2022-SEN-NC",
+  "provider": "North Carolina State Board of Elections",
+  "state": "NC",
+  "year": 2022,
+  "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2022_11_08/results_pct_20221108.zip",
+  "source_updated": null,
+  "retrieved_at": "2026-11-03T18:37:06.655413+00:00",
+  "status": "historical",
+  "candidates": [
+    {
+      "name": "Write-In (Miscellaneous)",
+      "party": "Other",
+      "votes": 2378
+    },
+    {
+      "name": "Shannon W. Bray",
+      "party": "Libertarian",
+      "votes": 51640
+    },
+    {
+      "name": "Matthew Hoh",
+      "party": "Green",
+      "votes": 29934
+    },
+    {
+      "name": "Cheri Beasley",
+      "party": "Democratic",
+      "votes": 1784049
+    },
+    {
+      "name": "Ted Budd",
+      "party": "Republican",
+      "votes": 1905786
+    },
+    {
+      "name": "Michelle Estelle Lewis (Write-In)",
+      "party": "Other",
+      "votes": 137
+    }
+  ],
+  "counties": [
+    {
+      "name": "Columbus",
+      "candidates": [
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 17
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 11723
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 154
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 6888
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 257
+        }
+      ]
+    },
+    {
+      "name": "Cleveland",
+      "candidates": [
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 412
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 20
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 203
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 10557
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 21654
+        }
+      ]
+    },
+    {
+      "name": "Cumberland",
+      "candidates": [
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 46449
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 35674
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 44
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 1160
+        },
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 3
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 677
+        }
+      ]
+    },
+    {
+      "name": "Carteret",
+      "candidates": [
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 8827
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 232
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 452
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 22709
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 20
+        }
+      ]
+    },
+    {
+      "name": "Catawba",
+      "candidates": [
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 3
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 16076
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 785
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 38252
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 27
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 423
+        }
+      ]
+    },
+    {
+      "name": "Clay",
+      "candidates": [
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 1339
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 4073
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 71
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 4
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 31
+        }
+      ]
+    },
+    {
+      "name": "Craven",
+      "candidates": [
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 14101
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 21981
+        },
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 3
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 594
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 279
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 27
+        }
+      ]
+    },
+    {
+      "name": "Henderson",
+      "candidates": [
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 461
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 20167
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 722
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 17
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 29798
+        }
+      ]
+    },
+    {
+      "name": "Edgecombe",
+      "candidates": [
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 151
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 6046
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 73
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 9213
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 7
+        },
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 5
+        }
+      ]
+    },
+    {
+      "name": "Guilford",
+      "candidates": [
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 108688
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 2342
+        },
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 5
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 153
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 74544
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 1504
+        }
+      ]
+    },
+    {
+      "name": "Harnett",
+      "candidates": [
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 16
+        },
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 3
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 13133
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 22860
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 611
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 300
+        }
+      ]
+    },
+    {
+      "name": "Haywood",
+      "candidates": [
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 451
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 16078
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 11
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 256
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 9972
+        }
+      ]
+    },
+    {
+      "name": "Forsyth",
+      "candidates": [
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 5
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 58350
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 73524
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 1011
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 73
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 1855
+        }
+      ]
+    },
+    {
+      "name": "Hoke",
+      "candidates": [
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 7118
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 5594
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 244
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 133
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 11
+        }
+      ]
+    },
+    {
+      "name": "Granville",
+      "candidates": [
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 9950
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 16
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 143
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 11770
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 362
+        }
+      ]
+    },
+    {
+      "name": "Greene",
+      "candidates": [
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 2410
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 49
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 2
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 66
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 3518
+        }
+      ]
+    },
+    {
+      "name": "Hertford",
+      "candidates": [
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 5
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 63
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 2400
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 4096
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 37
+        }
+      ]
+    },
+    {
+      "name": "Moore",
+      "candidates": [
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 586
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 28
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 26874
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 242
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 14586
+        }
+      ]
+    },
+    {
+      "name": "Johnston",
+      "candidates": [
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 9
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 33
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 1111
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 46239
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 28121
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 541
+        }
+      ]
+    },
+    {
+      "name": "Nash",
+      "candidates": [
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 18796
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 13
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 16401
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 169
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 360
+        }
+      ]
+    },
+    {
+      "name": "Pender",
+      "candidates": [
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 15466
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 345
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 7
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 159
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 7548
+        }
+      ]
+    },
+    {
+      "name": "Perquimans",
+      "candidates": [
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 57
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 3813
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 1557
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 39
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 2
+        }
+      ]
+    },
+    {
+      "name": "New Hanover",
+      "candidates": [
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 44
+        },
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 6
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 844
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 1326
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 46785
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 45012
+        }
+      ]
+    },
+    {
+      "name": "Pasquotank",
+      "candidates": [
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 243
+        },
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 20
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 7304
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 10
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 6468
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 116
+        }
+      ]
+    },
+    {
+      "name": "Wake",
+      "candidates": [
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 4085
+        },
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 14
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 160818
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 6634
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 252
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 281367
+        }
+      ]
+    },
+    {
+      "name": "Mecklenburg",
+      "candidates": [
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 221
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 4328
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 234787
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 3216
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 117742
+        }
+      ]
+    },
+    {
+      "name": "Orange",
+      "candidates": [
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 28
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 649
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 51125
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 535
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 14213
+        },
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 3
+        }
+      ]
+    },
+    {
+      "name": "Pamlico",
+      "candidates": [
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 2091
+        },
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 1
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 45
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 4
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 92
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 3908
+        }
+      ]
+    },
+    {
+      "name": "Iredell",
+      "candidates": [
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 1068
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 21442
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 46
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 469
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 46598
+        },
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 2
+        }
+      ]
+    },
+    {
+      "name": "Randolph",
+      "candidates": [
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 9313
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 684
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 284
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 35
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 38030
+        }
+      ]
+    },
+    {
+      "name": "Richmond",
+      "candidates": [
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 7
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 78
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 178
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 5016
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 7317
+        }
+      ]
+    },
+    {
+      "name": "Wayne",
+      "candidates": [
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 23
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 190
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 401
+        },
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 1
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 13990
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 20723
+        }
+      ]
+    },
+    {
+      "name": "Wilkes",
+      "candidates": [
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 145
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 15
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 322
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 19294
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 4770
+        }
+      ]
+    },
+    {
+      "name": "Cherokee",
+      "candidates": [
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 84
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 9493
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 2448
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 10
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 155
+        }
+      ]
+    },
+    {
+      "name": "Chowan",
+      "candidates": [
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 3
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 3360
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 2048
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 39
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 70
+        }
+      ]
+    },
+    {
+      "name": "Davidson",
+      "candidates": [
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 43393
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 35
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 394
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 795
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 14643
+        }
+      ]
+    },
+    {
+      "name": "Burke",
+      "candidates": [
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 235
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 14
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 426
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 8847
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 20456
+        }
+      ]
+    },
+    {
+      "name": "Dare",
+      "candidates": [
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 7097
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 274
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 78
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 159
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 10236
+        }
+      ]
+    },
+    {
+      "name": "Davie",
+      "candidates": [
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 136
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 13191
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 215
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 4501
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 16
+        }
+      ]
+    },
+    {
+      "name": "Chatham",
+      "candidates": [
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 22493
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 253
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 23
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 425
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 16275
+        }
+      ]
+    },
+    {
+      "name": "Hyde",
+      "candidates": [
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 17
+        },
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 3
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 1
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 28
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 731
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 1083
+        }
+      ]
+    },
+    {
+      "name": "Halifax",
+      "candidates": [
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 10
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 8889
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 65
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 125
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 6631
+        }
+      ]
+    },
+    {
+      "name": "Gaston",
+      "candidates": [
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 42
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 986
+        },
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 3
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 479
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 25676
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 46256
+        }
+      ]
+    },
+    {
+      "name": "Pitt",
+      "candidates": [
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 445
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 683
+        },
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 2
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 27705
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 31
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 26160
+        }
+      ]
+    },
+    {
+      "name": "Onslow",
+      "candidates": [
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 846
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 53
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 13544
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 29106
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 464
+        }
+      ]
+    },
+    {
+      "name": "Lincoln",
+      "candidates": [
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 15
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 526
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 26130
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 9418
+        },
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 1
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 195
+        }
+      ]
+    },
+    {
+      "name": "Polk",
+      "candidates": [
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 161
+        },
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 1
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 5
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 3635
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 5686
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 64
+        }
+      ]
+    },
+    {
+      "name": "Jones",
+      "candidates": [
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 1
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 60
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 2382
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 2
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 31
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 1397
+        }
+      ]
+    },
+    {
+      "name": "Lee",
+      "candidates": [
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 273
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 11
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 7767
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 11042
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 140
+        }
+      ]
+    },
+    {
+      "name": "Rowan",
+      "candidates": [
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 14282
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 393
+        },
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 3
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 723
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 32766
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 30
+        }
+      ]
+    },
+    {
+      "name": "Watauga",
+      "candidates": [
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 260
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 21
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 10455
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 373
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 11677
+        }
+      ]
+    },
+    {
+      "name": "Stanly",
+      "candidates": [
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 13
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 328
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 17927
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 5163
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 195
+        }
+      ]
+    },
+    {
+      "name": "Stokes",
+      "candidates": [
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 1
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 27
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 13915
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 3803
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 332
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 127
+        }
+      ]
+    },
+    {
+      "name": "Yancey",
+      "candidates": [
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 2946
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 89
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 5706
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 8
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 138
+        }
+      ]
+    },
+    {
+      "name": "Gates",
+      "candidates": [
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 2431
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 43
+        },
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 1
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 3
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 72
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 1758
+        }
+      ]
+    },
+    {
+      "name": "Graham",
+      "candidates": [
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 2791
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 67
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 639
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 43
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 3
+        }
+      ]
+    },
+    {
+      "name": "Ashe",
+      "candidates": [
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 8371
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 187
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 3172
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 7
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 80
+        }
+      ]
+    },
+    {
+      "name": "Avery",
+      "candidates": [
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 1595
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 4
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 54
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 92
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 5089
+        }
+      ]
+    },
+    {
+      "name": "Beaufort",
+      "candidates": [
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 103
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 12338
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 6245
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 5
+        },
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 2
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 283
+        }
+      ]
+    },
+    {
+      "name": "Alexander",
+      "candidates": [
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 18
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 140
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 243
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 11833
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 3031
+        }
+      ]
+    },
+    {
+      "name": "Alleghany",
+      "candidates": [
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 2
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 37
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 3648
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 1249
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 85
+        }
+      ]
+    },
+    {
+      "name": "Anson",
+      "candidates": [
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 6
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 3711
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 3324
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 87
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 35
+        }
+      ]
+    },
+    {
+      "name": "Alamance",
+      "candidates": [
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 32866
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 32
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 412
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 837
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 25866
+        }
+      ]
+    },
+    {
+      "name": "Bertie",
+      "candidates": [
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 3492
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 2781
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 27
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 59
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 1
+        }
+      ]
+    },
+    {
+      "name": "Bladen",
+      "candidates": [
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 149
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 6745
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 7
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 4799
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 83
+        }
+      ]
+    },
+    {
+      "name": "Caldwell",
+      "candidates": [
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 192
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 6404
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 391
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 20900
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 21
+        }
+      ]
+    },
+    {
+      "name": "Durham",
+      "candidates": [
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 103630
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 64
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 974
+        },
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 7
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 1315
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 22107
+        }
+      ]
+    },
+    {
+      "name": "Macon",
+      "candidates": [
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 10698
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 4617
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 11
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 139
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 279
+        }
+      ]
+    },
+    {
+      "name": "Rockingham",
+      "candidates": [
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 222
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 21617
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 577
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 40
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 10110
+        }
+      ]
+    },
+    {
+      "name": "Rutherford",
+      "candidates": [
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 6
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 199
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 5538
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 368
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 17330
+        }
+      ]
+    },
+    {
+      "name": "Robeson",
+      "candidates": [
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 230
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 318
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 10736
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 15732
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 34
+        }
+      ]
+    },
+    {
+      "name": "Person",
+      "candidates": [
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 95
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 9201
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 3
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 5905
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 234
+        }
+      ]
+    },
+    {
+      "name": "Union",
+      "candidates": [
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 82
+        },
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 6
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 56882
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 1146
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 31354
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 633
+        }
+      ]
+    },
+    {
+      "name": "Buncombe",
+      "candidates": [
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 12
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 47
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 1651
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 1387
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 73807
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 43222
+        }
+      ]
+    },
+    {
+      "name": "Brunswick",
+      "candidates": [
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 920
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 26685
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 54
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 44911
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 522
+        },
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 1
+        }
+      ]
+    },
+    {
+      "name": "Sampson",
+      "candidates": [
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 84
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 11574
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 154
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 19
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 6045
+        },
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 3
+        }
+      ]
+    },
+    {
+      "name": "Scotland",
+      "candidates": [
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 4359
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 78
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 4922
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 8
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 152
+        }
+      ]
+    },
+    {
+      "name": "Surry",
+      "candidates": [
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 18303
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 169
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 5828
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 27
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 377
+        }
+      ]
+    },
+    {
+      "name": "Duplin",
+      "candidates": [
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 9852
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 73
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 203
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 5071
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 11
+        }
+      ]
+    },
+    {
+      "name": "Martin",
+      "candidates": [
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 4717
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 2
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 68
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 118
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 3841
+        }
+      ]
+    },
+    {
+      "name": "Lenoir",
+      "candidates": [
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 236
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 2
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 10452
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 124
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 7872
+        }
+      ]
+    },
+    {
+      "name": "Swain",
+      "candidates": [
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 1708
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 5
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 79
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 2884
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 100
+        }
+      ]
+    },
+    {
+      "name": "Transylvania",
+      "candidates": [
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 284
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 9
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 6867
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 8832
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 178
+        }
+      ]
+    },
+    {
+      "name": "Montgomery",
+      "candidates": [
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 4
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 67
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 5834
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 2667
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 112
+        }
+      ]
+    },
+    {
+      "name": "Mcdowell",
+      "candidates": [
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 11776
+        },
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 1
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 144
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 260
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 3895
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 10
+        }
+      ]
+    },
+    {
+      "name": "Madison",
+      "candidates": [
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 3959
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 206
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 5797
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 6
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 133
+        }
+      ]
+    },
+    {
+      "name": "Cabarrus",
+      "candidates": [
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 643
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 32372
+        },
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 4
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 41468
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 1148
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 46
+        }
+      ]
+    },
+    {
+      "name": "Warren",
+      "candidates": [
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 4
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 52
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 4344
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 2753
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 30
+        }
+      ]
+    },
+    {
+      "name": "Vance",
+      "candidates": [
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 7097
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 6
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 5620
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 169
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 75
+        }
+      ]
+    },
+    {
+      "name": "Franklin",
+      "candidates": [
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 15292
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 18
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 11701
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 222
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 397
+        }
+      ]
+    },
+    {
+      "name": "Camden",
+      "candidates": [
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 6
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 105
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 3127
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 1006
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 34
+        },
+        {
+          "name": "Michelle Estelle Lewis (Write-In)",
+          "party": "Other",
+          "votes": 2
+        }
+      ]
+    },
+    {
+      "name": "Caswell",
+      "candidates": [
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 3121
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 84
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 4867
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 3
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 43
+        }
+      ]
+    },
+    {
+      "name": "Wilson",
+      "candidates": [
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 269
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 13310
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 12503
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 158
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 9
+        }
+      ]
+    },
+    {
+      "name": "Yadkin",
+      "candidates": [
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 230
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 2400
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 13
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 110
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 11117
+        }
+      ]
+    },
+    {
+      "name": "Washington",
+      "candidates": [
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 4
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 26
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 1996
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 47
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 2002
+        }
+      ]
+    },
+    {
+      "name": "Northampton",
+      "candidates": [
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 62
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 5
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 2962
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 3718
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 30
+        }
+      ]
+    },
+    {
+      "name": "Tyrrell",
+      "candidates": [
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 482
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 10
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 18
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 770
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 1
+        }
+      ]
+    },
+    {
+      "name": "Jackson",
+      "candidates": [
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 6
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 259
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 7920
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 6557
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 190
+        }
+      ]
+    },
+    {
+      "name": "Currituck",
+      "candidates": [
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 81
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 12
+        },
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 2739
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 213
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 8593
+        }
+      ]
+    },
+    {
+      "name": "Mitchell",
+      "candidates": [
+        {
+          "name": "Cheri Beasley",
+          "party": "Democratic",
+          "votes": 1354
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 101
+        },
+        {
+          "name": "Ted Budd",
+          "party": "Republican",
+          "votes": 5024
+        },
+        {
+          "name": "Matthew Hoh",
+          "party": "Green",
+          "votes": 48
+        },
+        {
+          "name": "Write-In (Miscellaneous)",
+          "party": "Other",
+          "votes": 6
+        }
+      ]
+    }
+  ],
+  "definition": "Sum of Total Votes across unique precinct/candidate rows for US SENATE. Historical county matching uses unique normalized county names; no FIPS supplied in this file. Official authority data; 2026 returns remain unofficial."
+}

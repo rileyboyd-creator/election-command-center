@@ -1,0 +1,37 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';import vm from 'node:vm';
+import {observe,emptyLog,healthEvent,control,twoPartyMargin,swing,closingStatus,reconcile} from './insights.mjs';
+import {getJSON,validateCatalog,validateDetail} from './state-races.mjs';
+import {countyRows} from './county.mjs';
+const at='2026-11-03T20:00:00Z',later='2026-11-03T20:05:00Z';
+const candidate=(id,party,votes)=>({id,name:id,party,votes});
+const race={id:'US-2026-SEN-XX',state:'XX',office:'Senate',source:'fixture',url:'https://example.test',updated:at,call:null,reportedProgress:0,candidates:[candidate('d','Democratic',100),candidate('r','Republican',90),candidate('i','Independent',5)]};
+const base={contests:[race],races:[race],turnout:[],national:{senate:{d:34,r:31,other:0,uncalled:35,baselineD:null}}};
+let log=observe(base,base,emptyLog(),at);assert.equal(log.events.length,0);assert.equal(log.history[race.id].length,1);
+log=observe(base,base,log,later);assert.equal(log.history[race.id].length,1);assert.equal(log.events.length,0);
+const next=structuredClone(base);next.contests[0].updated=later;next.contests[0].candidates[0].votes=120;next.contests[0].reportedProgress=10;
+log=observe(base,next,log,later);assert.equal(log.events.filter(e=>e.type==='votes').length,1);assert.equal(log.events.find(e=>e.type==='votes').after,215);assert.equal(log.events.find(e=>e.type==='margin').after,30);assert.equal(log.events.filter(e=>e.type==='progress').length,1);
+const duplicate=observe(base,next,log,later);assert.equal(duplicate.events.length,log.events.length);assert.equal(duplicate.history[race.id].length,2);
+const correction=structuredClone(next);correction.contests[0].candidates[1].votes=80;correction.contests[0].updated='2026-11-03T20:06:00Z';const corrected=observe(next,correction,emptyLog(),later);assert(corrected.events.some(e=>e.type==='correction'));assert(!corrected.events.some(e=>e.type==='votes'));
+const called=structuredClone(next);called.contests[0].call='d';assert(observe(next,called,emptyLog(),later).events.some(e=>e.type==='call'));assert(observe(called,next,emptyLog(),later).events.some(e=>e.type==='correction'));
+assert.equal(observe(next,base,log,later).events.length,log.events.length);
+let health=healthEvent(emptyLog(),'ok','ok',at);health=healthEvent(health,'error','timeout',later);assert.equal(health.events.length,1);assert.equal(healthEvent(health,'error','timeout',later).events.length,1);assert.equal(healthEvent(health,'ok','recovered','2026-11-03T20:06:00Z').events.length,2);
+let c=control(base);assert.equal(c.totals.d,34);assert.equal(c.ranges.other[1],1);assert.equal(control(base,{[race.id]:'i'}).totals.other,1);assert.equal(control(base,{[race.id]:'d'}).totals.d,35);assert.equal(base.national.senate.d,34);assert.equal(control(base,{[race.id]:'missing'}).totals.uncalled,35);
+assert.equal(twoPartyMargin([candidate('a','Democratic',60),candidate('b','Republican',40)]),20);assert.equal(swing([candidate('a','Democratic',60),candidate('b','Republican',40)],[candidate('a','Democratic',50),candidate('b','Republican',50)]),20);assert.equal(twoPartyMargin([candidate('x','Democratic',0)]),null);
+assert.equal(closingStatus('2026-11-04T00:00:00Z','2026-11-04T01:00:00Z',Date.parse('2026-11-04T00:30:00Z')),'Some polls closed');assert.equal(closingStatus(at,later,Date.parse(later)),'Scheduled polls closed');
+assert(reconcile(race,{...race,candidates:[candidate('d','Democratic',1)]}).warning);assert.equal(reconcile(race,null).record,race);
+const code=fs.readFileSync('index.html','utf8').match(/<script>([\s\S]*?)<\/script>/)[1];new vm.Script(code);
+for(const path of ['insights.mjs','insights-ui.mjs','county.mjs','refresh-counties.mjs'])assert(fs.readFileSync('scripts/'+path,'utf8').length>0);
+const baseline=JSON.parse(fs.readFileSync('data/history/NC-2022-senate.json','utf8'));assert.equal(baseline.counties.length,100);assert.equal(baseline.candidates.find(c=>c.name==='Ted Budd').votes,1905786);assert.equal(baseline.candidates.find(c=>c.name==='Cheri Beasley').votes,1784049);
+const timeline=JSON.parse(fs.readFileSync('data/poll-closing.json','utf8'));for(const w of timeline.windows){assert(Date.parse(w.first)<=Date.parse(w.last));assert(w.source.startsWith('https://'));}const ne=timeline.windows.find(w=>w.state==='NE');assert.equal(ne.first,ne.last);const fl=timeline.windows.find(w=>w.state==='FL');assert.equal(Date.parse(fl.last)-Date.parse(fl.first),3600000);
+assert.deepEqual(countyRows({region_results:{}}),[]);
+assert.throws(()=>validateCatalog({count:1,races:[]},'NC'));
+assert.throws(()=>validateDetail({test_data:true},'NC'));
+const originalFetch=globalThis.fetch;
+try{
+ globalThis.fetch=async()=>new Response('not json',{status:200});await assert.rejects(()=>getJSON('https://example.test'),SyntaxError);
+ globalThis.fetch=async()=>new Response('',{status:200});await assert.rejects(()=>getJSON('https://example.test'),SyntaxError);
+ globalThis.fetch=async()=>new Response('',{status:429,headers:{'Retry-After':'90'}});await assert.rejects(()=>getJSON('https://example.test'),e=>e.message==='HTTP 429'&&e.retryAfter===90000);
+ globalThis.fetch=async()=>{throw new DOMException('Timed out','TimeoutError')};await assert.rejects(()=>getJSON('https://example.test'),e=>e.name==='TimeoutError');
+}finally{globalThis.fetch=originalFetch}
+console.log('PASS: snapshot changes, duplicates, corrections, calls/retractions, out-of-order data, outages/recovery, independent scenarios, margins/swings, split-zone timeline, source conflicts, historical totals and syntax. Synthetic fixtures remain in this test only.');
