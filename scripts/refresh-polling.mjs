@@ -1,0 +1,6 @@
+import fs from 'node:fs/promises';
+import {endpoint,normalizePolls} from './votehub.mjs';
+const path='data/polling.json';let cached;try{cached=JSON.parse(await fs.readFile(path,'utf8'))}catch{}
+if(cached&&Date.now()-Date.parse(cached.fetched_at)<3600000){console.log('VoteHub hourly check not due.');process.exit(0)}
+if(cached&&new Date().toISOString().slice(0,10)>'2026-11-04'){console.log('Pre-election polling snapshot frozen.');process.exit(0)}
+try{const response=await fetch(endpoint,{headers:{Accept:'application/json'},signal:AbortSignal.timeout(20000)});if(!response.ok)throw Error('VoteHub HTTP '+response.status);const snapshot=JSON.parse(await fs.readFile('Election_2026_Latest.json','utf8'));const next=normalizePolls(await response.json(),snapshot);if(cached&&Object.keys(next.races).length<Object.keys(cached.races).length)throw Error('Reduced polling coverage');await fs.writeFile(path+'.tmp',JSON.stringify(next,null,2)+'\n');await fs.rename(path+'.tmp',path);console.log('VoteHub context saved for '+Object.keys(next.races).length+' / 35 Senate contests.')}catch(e){console.warn('::warning::'+e.message+'; cached polling retained, live results unaffected.');if(!cached)process.exitCode=1;}

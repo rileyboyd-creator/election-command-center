@@ -1,0 +1,726 @@
+{
+  "version": 1,
+  "fetched_at": "2026-11-03T21:02:38.389Z",
+  "cutoff": "2026-11-03",
+  "source": {
+    "name": "VoteHub Polling API",
+    "url": "https://votehub.com/polls/api/",
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "endpoint": "https://api.votehub.com/polls?poll_type=us-senator&from_date=2026-09-01&to_date=2026-11-03",
+  "method": "Latest compatible general-election poll ending September 1–November 3, 2026. LV/RV only; internal polls excluded. Partisan sponsors disclosed. Sorted by end date, start date, sample size and ID. No averaging, weighting or forecasts. Candidate matches require exact normalized names or unique surname and first initial.",
+  "races": {
+    "US-2026-SEN-AK": {
+      "id": "US-2026-SEN-AK",
+      "state": "AK",
+      "special": false,
+      "poll_id": "us-202thef222f527",
+      "pollster": "The New York Times/Siena University",
+      "start_date": "2026-10-23",
+      "end_date": "2026-10-30",
+      "sample_size": 610,
+      "population": "lv",
+      "partisan": null,
+      "sponsors": [],
+      "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-ak-poll-toplines.html",
+      "answers": [
+        {
+          "name": "Mary Peltola",
+          "party": "Democratic",
+          "pct": 48
+        },
+        {
+          "name": "Dan Sullivan",
+          "party": "Republican",
+          "pct": 46
+        }
+      ],
+      "margin": 2
+    },
+    "US-2026-SEN-AL": {
+      "id": "US-2026-SEN-AL",
+      "state": "AL",
+      "special": false,
+      "poll_id": "us-202blu72ec478b",
+      "pollster": "Blueprint Polling",
+      "start_date": "2026-10-22",
+      "end_date": "2026-10-24",
+      "sample_size": 695,
+      "population": "lv",
+      "partisan": null,
+      "sponsors": [],
+      "url": "https://www.chismstrategies.com/field-notes/new-alabama-poll-governors-race-a-toss-up-as-tuberville-edges-jones-48--45",
+      "answers": [
+        {
+          "name": "Barry Moore",
+          "party": "Republican",
+          "pct": 48
+        },
+        {
+          "name": "Everett Wess",
+          "party": "Democratic",
+          "pct": 40
+        }
+      ],
+      "margin": 8
+    },
+    "US-2026-SEN-AR": {
+      "id": "US-2026-SEN-AR",
+      "state": "AR",
+      "special": false,
+      "poll_id": "us-202gra4551bd46",
+      "pollster": "GrayHouse",
+      "start_date": "2026-10-27",
+      "end_date": "2026-10-28",
+      "sample_size": 509,
+      "population": "lv",
+      "partisan": "REP",
+      "sponsors": [
+        "America One Policies"
+      ],
+      "url": "https://www.grayhouse.com/post/arkansas-senate-poll-october-2026-cotton",
+      "answers": [
+        {
+          "name": "Tom Cotton",
+          "party": "Republican",
+          "pct": 55
+        },
+        {
+          "name": "Hallie Shoffner",
+          "party": "Democratic",
+          "pct": 39
+        },
+        {
+          "name": "Jeff Wadlin",
+          "party": "Libertarian",
+          "pct": 4
+        }
+      ],
+      "margin": 16
+    },
+    "US-2026-SEN-CO": {
+      "id": "US-2026-SEN-CO",
+      "state": "CO",
+      "special": false,
+      "poll_id": "us-202lake19b0fc9",
+      "pollster": "Lake Research Partners",
+      "start_date": "2026-09-16",
+      "end_date": "2026-09-30",
+      "sample_size": 600,
+      "population": "rv",
+      "partisan": null,
+      "sponsors": [
+        "Ballot Initiative Strategy Center"
+      ],
+      "url": "https://ballot.org/wp-content/uploads/2026/10/LRP-Topline-CO-BISC-State-Partners-10.8.26.pdf",
+      "answers": [
+        {
+          "name": "John Hickenlooper",
+          "party": "Democratic",
+          "pct": 52
+        },
+        {
+          "name": "Mark Baisley",
+          "party": "Republican",
+          "pct": 38
+        }
+      ],
+      "margin": 14
+    },
+    "US-2026-SEN-FL": {
+      "id": "US-2026-SEN-FL",
+      "state": "FL",
+      "special": true,
+      "poll_id": "us-202red57ac6384",
+      "pollster": "RedBox Research",
+      "start_date": "2026-10-30",
+      "end_date": "2026-10-31",
+      "sample_size": 2898,
+      "population": "lv",
+      "partisan": "DEM",
+      "sponsors": [
+        "A Fight Worth Having"
+      ],
+      "url": "https://afightworthhaving.com/polling/2026/florida",
+      "answers": [
+        {
+          "name": "Ashley Moody",
+          "party": "Republican",
+          "pct": 47
+        },
+        {
+          "name": "Angie Nixon",
+          "party": "Democratic",
+          "pct": 45
+        },
+        {
+          "name": "Neil J. Gillespie",
+          "party": "Independent",
+          "pct": 1
+        }
+      ],
+      "margin": 2
+    },
+    "US-2026-SEN-GA": {
+      "id": "US-2026-SEN-GA",
+      "state": "GA",
+      "special": false,
+      "poll_id": "us-202inscc9ea016",
+      "pollster": "InsiderAdvantage",
+      "start_date": "2026-10-31",
+      "end_date": "2026-11-02",
+      "sample_size": 2500,
+      "population": "lv",
+      "partisan": null,
+      "sponsors": [],
+      "url": "https://jamesmagazinega.com/2026/11/02/48131/",
+      "answers": [
+        {
+          "name": "Jon Ossoff",
+          "party": "Democratic",
+          "pct": 53
+        },
+        {
+          "name": "Mike Collins",
+          "party": "Republican",
+          "pct": 46
+        }
+      ],
+      "margin": 7
+    },
+    "US-2026-SEN-IA": {
+      "id": "US-2026-SEN-IA",
+      "state": "IA",
+      "special": false,
+      "poll_id": "us-202the44d55dc8",
+      "pollster": "The New York Times/Siena University",
+      "start_date": "2026-10-26",
+      "end_date": "2026-11-01",
+      "sample_size": 705,
+      "population": "lv",
+      "partisan": null,
+      "sponsors": [],
+      "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-ia-poll-toplines.html",
+      "answers": [
+        {
+          "name": "Josh Turek",
+          "party": "Democratic",
+          "pct": 48
+        },
+        {
+          "name": "Ashley Hinson",
+          "party": "Republican",
+          "pct": 47
+        }
+      ],
+      "margin": 1
+    },
+    "US-2026-SEN-IL": {
+      "id": "US-2026-SEN-IL",
+      "state": "IL",
+      "special": false,
+      "poll_id": "us-202act4459517f",
+      "pollster": "ActiVote",
+      "start_date": "2026-10-21",
+      "end_date": "2026-10-30",
+      "sample_size": 400,
+      "population": "lv",
+      "partisan": null,
+      "sponsors": [],
+      "url": "https://www.activote.net/polls/2026/il-u-s-senate/",
+      "answers": [
+        {
+          "name": "Juliana Stratton",
+          "party": "Democratic",
+          "pct": 55.6
+        },
+        {
+          "name": "Don Tracy",
+          "party": "Republican",
+          "pct": 44.4
+        }
+      ],
+      "margin": 11.2
+    },
+    "US-2026-SEN-KS": {
+      "id": "US-2026-SEN-KS",
+      "state": "KS",
+      "special": false,
+      "poll_id": "us-202surc3904145",
+      "pollster": "Survey 160",
+      "start_date": "2026-10-27",
+      "end_date": "2026-11-01",
+      "sample_size": 1365,
+      "population": "lv",
+      "partisan": null,
+      "sponsors": [],
+      "url": "https://www.survey160.com/methodological-research-blog/survey-160-pre-election-surveys-in-four-states",
+      "answers": [
+        {
+          "name": "Adam Hamilton",
+          "party": "Democratic",
+          "pct": 50
+        },
+        {
+          "name": "Roger Marshall",
+          "party": "Republican",
+          "pct": 43
+        }
+      ],
+      "margin": 7
+    },
+    "US-2026-SEN-MA": {
+      "id": "US-2026-SEN-MA",
+      "state": "MA",
+      "special": false,
+      "poll_id": "us-202uni89b3e322",
+      "pollster": "University of New Hampshire",
+      "start_date": "2026-10-27",
+      "end_date": "2026-10-31",
+      "sample_size": 905,
+      "population": "lv",
+      "partisan": null,
+      "sponsors": [],
+      "url": "https://scholars.unh.edu/survey_center_polls/1014/",
+      "answers": [
+        {
+          "name": "Edward J. Markey",
+          "party": "Democratic",
+          "pct": 53
+        },
+        {
+          "name": "John Deaton",
+          "party": "Republican",
+          "pct": 32
+        },
+        {
+          "name": "Joe Tache",
+          "party": "Socialism and Liberation",
+          "pct": 7
+        },
+        {
+          "name": "Shiva Ayyadurai",
+          "party": "Independent",
+          "pct": 4
+        }
+      ],
+      "margin": 21
+    },
+    "US-2026-SEN-ME": {
+      "id": "US-2026-SEN-ME",
+      "state": "ME",
+      "special": false,
+      "poll_id": "us-202surbc39cb26",
+      "pollster": "Survey 160",
+      "start_date": "2026-10-27",
+      "end_date": "2026-11-01",
+      "sample_size": 1322,
+      "population": "lv",
+      "partisan": null,
+      "sponsors": [],
+      "url": "https://www.survey160.com/methodological-research-blog/survey-160-pre-election-surveys-in-four-states",
+      "answers": [
+        {
+          "name": "Troy Jackson",
+          "party": "Democratic",
+          "pct": 50
+        },
+        {
+          "name": "Susan Collins",
+          "party": "Republican",
+          "pct": 46
+        }
+      ],
+      "margin": 4
+    },
+    "US-2026-SEN-MI": {
+      "id": "US-2026-SEN-MI",
+      "state": "MI",
+      "special": false,
+      "poll_id": "us-202thef985be3e",
+      "pollster": "The New York Times/Siena University",
+      "start_date": "2026-10-23",
+      "end_date": "2026-11-01",
+      "sample_size": 1011,
+      "population": "lv",
+      "partisan": null,
+      "sponsors": [],
+      "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-mi-poll-toplines.html",
+      "answers": [
+        {
+          "name": "Abdul El-Sayed",
+          "party": "Democratic",
+          "pct": 53
+        },
+        {
+          "name": "Mike Rogers",
+          "party": "Republican",
+          "pct": 42
+        }
+      ],
+      "margin": 11
+    },
+    "US-2026-SEN-MN": {
+      "id": "US-2026-SEN-MN",
+      "state": "MN",
+      "special": false,
+      "poll_id": "us-202atl4ff5863b",
+      "pollster": "AtlasIntel",
+      "start_date": "2026-10-28",
+      "end_date": "2026-11-01",
+      "sample_size": 2133,
+      "population": "lv",
+      "partisan": null,
+      "sponsors": [],
+      "url": "https://pollstergraph.com/poll/exclusive-atlas-us-mn-20261101-senate",
+      "answers": [
+        {
+          "name": "Peggy Flanagan",
+          "party": "Democratic",
+          "pct": 48
+        },
+        {
+          "name": "Michele Tafoya",
+          "party": "Republican",
+          "pct": 46
+        }
+      ],
+      "margin": 2
+    },
+    "US-2026-SEN-MS": {
+      "id": "US-2026-SEN-MS",
+      "state": "MS",
+      "special": false,
+      "poll_id": "us-202weda6e4ad64",
+      "pollster": "Wedgewood Polls",
+      "start_date": "2026-10-12",
+      "end_date": "2026-10-14",
+      "sample_size": 511,
+      "population": "lv",
+      "partisan": null,
+      "sponsors": [],
+      "url": "https://drive.google.com/file/d/16nLOQEszQimue_N2O6G42brKUXopDLcu/view",
+      "answers": [
+        {
+          "name": "Cindy Hyde-Smith",
+          "party": "Republican",
+          "pct": 52
+        },
+        {
+          "name": "Scott Colom",
+          "party": "Democratic",
+          "pct": 48
+        }
+      ],
+      "margin": 4
+    },
+    "US-2026-SEN-MT": {
+      "id": "US-2026-SEN-MT",
+      "state": "MT",
+      "special": false,
+      "poll_id": "us-202conf574c6cb",
+      "pollster": "Concord Public Opinion Partners",
+      "start_date": "2026-10-22",
+      "end_date": "2026-10-23",
+      "sample_size": 410,
+      "population": "lv",
+      "partisan": "DEM",
+      "sponsors": [
+        "Democrats for Education Reform"
+      ],
+      "url": "https://dfer.org/policy-polling-memos/montana/montana-general-election-poll-findings/",
+      "answers": [
+        {
+          "name": "Seth Bodnar",
+          "party": "Independent",
+          "pct": 39
+        },
+        {
+          "name": "Kurt Alme",
+          "party": "Republican",
+          "pct": 38
+        },
+        {
+          "name": "Alani Bankhead",
+          "party": "Democratic",
+          "pct": 10
+        },
+        {
+          "name": "Kyle Austin",
+          "party": "Libertarian",
+          "pct": 2
+        }
+      ],
+      "margin": 1
+    },
+    "US-2026-SEN-NC": {
+      "id": "US-2026-SEN-NC",
+      "state": "NC",
+      "special": false,
+      "poll_id": "us-202atl4b2e3acd",
+      "pollster": "AtlasIntel",
+      "start_date": "2026-10-28",
+      "end_date": "2026-11-01",
+      "sample_size": 1459,
+      "population": "lv",
+      "partisan": null,
+      "sponsors": [],
+      "url": "https://pollstergraph.com/poll/exclusive-atlas-us-nc-20261101-senate",
+      "answers": [
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "pct": 56.4
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "pct": 41.5
+        }
+      ],
+      "margin": 14.9
+    },
+    "US-2026-SEN-NE": {
+      "id": "US-2026-SEN-NE",
+      "state": "NE",
+      "special": false,
+      "poll_id": "us-202ech8ce34abf",
+      "pollster": "Echelon Insights",
+      "start_date": "2026-10-16",
+      "end_date": "2026-10-23",
+      "sample_size": 407,
+      "population": "lv",
+      "partisan": null,
+      "sponsors": [
+        "NetChoice"
+      ],
+      "url": "https://netchoice.org/netchoice-echelon-insights-poll-voters-rank-ai-regulation-far-behind-cost-of-living-want-one-national-ai-standard/",
+      "answers": [
+        {
+          "name": "Pete  Ricketts",
+          "party": "Republican",
+          "pct": 47
+        },
+        {
+          "name": "Dan  Osborn",
+          "party": "Independent",
+          "pct": 46
+        },
+        {
+          "name": "Robin  Richards",
+          "party": "Nebraska Working People",
+          "pct": 2
+        },
+        {
+          "name": "Chuck  Conboy",
+          "party": "America First",
+          "pct": 1
+        }
+      ],
+      "margin": 1
+    },
+    "US-2026-SEN-NH": {
+      "id": "US-2026-SEN-NH",
+      "state": "NH",
+      "special": false,
+      "poll_id": "us-202uni43b7e03e",
+      "pollster": "University of New Hampshire",
+      "start_date": "2026-10-27",
+      "end_date": "2026-10-31",
+      "sample_size": 2040,
+      "population": "lv",
+      "partisan": null,
+      "sponsors": [],
+      "url": "https://scholars.unh.edu/survey_center_polls/1011/",
+      "answers": [
+        {
+          "name": "Chris Pappas",
+          "party": "Democratic",
+          "pct": 54
+        },
+        {
+          "name": "John E. Sununu",
+          "party": "Republican",
+          "pct": 42
+        },
+        {
+          "name": "Edmond Laplante",
+          "party": "Constitution",
+          "pct": 2
+        }
+      ],
+      "margin": 12
+    },
+    "US-2026-SEN-NM": {
+      "id": "US-2026-SEN-NM",
+      "state": "NM",
+      "special": false,
+      "poll_id": "us-202surae0ec3b2",
+      "pollster": "SurveyUSA",
+      "start_date": "2026-09-25",
+      "end_date": "2026-09-30",
+      "sample_size": 576,
+      "population": "lv",
+      "partisan": null,
+      "sponsors": [
+        "KOB-TV (Albuquerque)"
+      ],
+      "url": "https://results.surveyusa.com/client/PollReport.aspx?g=6e6ded19-6ad8-4379-8fa9-6a15dfa99052",
+      "answers": [
+        {
+          "name": "Ben Ray Luján",
+          "party": "Democratic",
+          "pct": 54
+        },
+        {
+          "name": "Larry Marker",
+          "party": "Republican",
+          "pct": 36
+        }
+      ],
+      "margin": 18
+    },
+    "US-2026-SEN-OH": {
+      "id": "US-2026-SEN-OH",
+      "state": "OH",
+      "special": true,
+      "poll_id": "us-202sur47b76c1c",
+      "pollster": "Survey 160",
+      "start_date": "2026-10-27",
+      "end_date": "2026-11-01",
+      "sample_size": 1122,
+      "population": "lv",
+      "partisan": null,
+      "sponsors": [],
+      "url": "https://www.survey160.com/methodological-research-blog/survey-160-pre-election-surveys-in-four-states",
+      "answers": [
+        {
+          "name": "Sherrod Brown",
+          "party": "Democratic",
+          "pct": 49
+        },
+        {
+          "name": "Jon Husted",
+          "party": "Republican",
+          "pct": 45
+        }
+      ],
+      "margin": 4
+    },
+    "US-2026-SEN-RI": {
+      "id": "US-2026-SEN-RI",
+      "state": "RI",
+      "special": false,
+      "poll_id": "us-202unif94885f7",
+      "pollster": "University of New Hampshire",
+      "start_date": "2026-10-27",
+      "end_date": "2026-10-31",
+      "sample_size": 753,
+      "population": "lv",
+      "partisan": null,
+      "sponsors": [],
+      "url": "https://scholars.unh.edu/survey_center_polls/1015/",
+      "answers": [
+        {
+          "name": "John F. Reed",
+          "party": "Democratic",
+          "pct": 63
+        },
+        {
+          "name": "Raymond T. McKay",
+          "party": "Republican",
+          "pct": 32
+        },
+        {
+          "name": "Michael Bahry",
+          "party": "Independent",
+          "pct": 3
+        }
+      ],
+      "margin": 31
+    },
+    "US-2026-SEN-SC": {
+      "id": "US-2026-SEN-SC",
+      "state": "SC",
+      "special": false,
+      "poll_id": "us-202resa74e4477",
+      "pollster": "Resonance Media Services",
+      "start_date": "2026-10-30",
+      "end_date": "2026-10-30",
+      "sample_size": 600,
+      "population": "lv",
+      "partisan": null,
+      "sponsors": [],
+      "url": "https://www.fitsnews.com/wp-content/uploads/securepdfs/2026/11/Resonance-final-SC-Poll-Memo-11-02-2026.pdf",
+      "answers": [
+        {
+          "name": "Annie Andrews",
+          "party": "Democratic",
+          "pct": 46.2
+        },
+        {
+          "name": "Darline Graham",
+          "party": "Republican",
+          "pct": 44.6
+        }
+      ],
+      "margin": 1.6
+    },
+    "US-2026-SEN-SD": {
+      "id": "US-2026-SEN-SD",
+      "state": "SD",
+      "special": false,
+      "poll_id": "us-202conff89f742",
+      "pollster": "Concord Public Opinion Partners",
+      "start_date": "2026-10-22",
+      "end_date": "2026-10-26",
+      "sample_size": 448,
+      "population": "lv",
+      "partisan": "DEM",
+      "sponsors": [
+        "Democrats for Education Reform"
+      ],
+      "url": "https://concordpublicopinionpartners.org/polls/south-dakota-ge-2026-oct26",
+      "answers": [
+        {
+          "name": "Brian Bengs",
+          "party": "Independent",
+          "pct": 43
+        },
+        {
+          "name": "Mike Rounds",
+          "party": "Republican",
+          "pct": 41
+        }
+      ],
+      "margin": 2
+    },
+    "US-2026-SEN-TX": {
+      "id": "US-2026-SEN-TX",
+      "state": "TX",
+      "special": false,
+      "poll_id": "us-202thed5a5e7e5",
+      "pollster": "The New York Times/Siena University",
+      "start_date": "2026-10-27",
+      "end_date": "2026-11-01",
+      "sample_size": 1215,
+      "population": "lv",
+      "partisan": null,
+      "sponsors": [],
+      "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-tx-poll-toplines.html",
+      "answers": [
+        {
+          "name": "James Talarico",
+          "party": "Democratic",
+          "pct": 50
+        },
+        {
+          "name": "Ken Paxton",
+          "party": "Republican",
+          "pct": 43
+        }
+      ],
+      "margin": 7
+    }
+  }
+}
