@@ -1,6 +1,6 @@
 # Election 2026 — latest status
 
-Refresh check: 2026-11-03T19:03:26.259Z
+Refresh check: 2026-11-03T19:05:35.408Z
 Source snapshot: 2026-11-03T18:52:29.814Z
 Feed health: unchanged — Feed checked; source snapshot unchanged.
 
