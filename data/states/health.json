@@ -1,21 +1,21 @@
 {
-  "checked_at": "2026-11-03T19:24:43.819Z",
+  "checked_at": "2026-11-03T20:01:02.493Z",
   "states": {
     "AR": {
       "status": "ok",
       "count": 88
     },
-    "AK": {
+    "AZ": {
       "status": "ok",
-      "count": 3
+      "count": 9
     },
     "AL": {
       "status": "ok",
       "count": 5
     },
-    "AZ": {
+    "AK": {
       "status": "ok",
-      "count": 9
+      "count": 3
     },
     "CA": {
       "status": "ok",
@@ -25,13 +25,13 @@
       "status": "ok",
       "count": 63
     },
-    "DE": {
-      "status": "ok",
-      "count": 4
-    },
     "CT": {
       "status": "ok",
       "count": 1
+    },
+    "DE": {
+      "status": "ok",
+      "count": 4
     },
     "FL": {
       "status": "ok",
@@ -65,13 +65,13 @@
       "status": "ok",
       "count": 90
     },
-    "LA": {
-      "status": "ok",
-      "count": 100
-    },
     "KY": {
       "status": "ok",
       "count": 14
+    },
+    "LA": {
+      "status": "ok",
+      "count": 100
     },
     "ME": {
       "status": "ok",
@@ -85,6 +85,10 @@
       "status": "ok",
       "count": 10
     },
+    "MN": {
+      "status": "ok",
+      "count": 2
+    },
     "MI": {
       "status": "ok",
       "count": 243
@@ -92,10 +96,6 @@
     "MS": {
       "status": "ok",
       "count": 0
-    },
-    "MN": {
-      "status": "ok",
-      "count": 2
     },
     "MO": {
       "status": "ok",
@@ -133,13 +133,13 @@
       "status": "ok",
       "count": 42
     },
-    "ND": {
-      "status": "ok",
-      "count": 77
-    },
     "OH": {
       "status": "ok",
       "count": 2
+    },
+    "ND": {
+      "status": "ok",
+      "count": 77
     },
     "OK": {
       "status": "ok",
@@ -169,13 +169,13 @@
       "status": "ok",
       "count": 1
     },
-    "UT": {
-      "status": "ok",
-      "count": 19
-    },
     "TX": {
       "status": "ok",
       "count": 1
+    },
+    "UT": {
+      "status": "ok",
+      "count": 19
     },
     "VT": {
       "status": "ok",
