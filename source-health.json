@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-03T17:36:58.710Z",
-  "status": "updated",
+  "checked_at": "2026-11-03T17:41:43.141Z",
+  "status": "unchanged",
   "last_data_update": "2026-11-03T17:37:03.191Z",
-  "message": "Validated source snapshot saved from civicAPI. Source timestamps may predate retrieval; inspect staleness."
+  "message": "Feed checked; source snapshot unchanged."
 }
