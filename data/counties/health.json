@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-11-03T19:04:21.033Z",
+  "states": {
+    "FL": {
+      "status": "ok"
+    },
+    "IA": {
+      "status": "ok"
+    },
+    "TX": {
+      "status": "ok"
+    },
+    "KS": {
+      "status": "ok"
+    },
+    "NC": {
+      "status": "ok"
+    },
+    "MI": {
+      "status": "ok"
+    },
+    "OH": {
+      "status": "ok"
+    },
+    "GA": {
+      "status": "ok"
+    },
+    "ME": {
+      "status": "ok"
+    },
+    "AK": {
+      "status": "ok"
+    }
+  }
+}
