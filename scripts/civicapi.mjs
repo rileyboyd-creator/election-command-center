@@ -1,4 +1,3 @@
-import crypto from 'node:crypto';
 export const endpoints={senate:'https://civicapi.org/api/v2/race/87528',house:'https://civicapi.org/api/v2/race/87524'};
 const check=(ok,message)=>{if(!ok)throw Error(message)};
 const party=p=>p==='Democratic'?'d':p==='Republican'?'r':'other';
@@ -17,9 +16,10 @@ function verify(d,key){
   for(const c of r.candidates)check(typeof c.name==='string'&&typeof c.party==='string'&&integer(c.votes),'Invalid candidate votes');
  }
 }
-export function normalize(payloads,previous,now=new Date().toISOString()){
+export async function normalize(payloads,previous,now=new Date().toISOString()){
  for(const k of ['senate','house'])verify(payloads[k],k);
- const fingerprint=crypto.createHash('sha256').update(JSON.stringify(payloads)).digest('hex');
+ const digest=await globalThis.crypto.subtle.digest('SHA-256',new TextEncoder().encode(JSON.stringify(payloads)));
+ const fingerprint=Array.from(new Uint8Array(digest),b=>b.toString(16).padStart(2,'0')).join('');
  if(previous.metadata?.civicapi_fingerprint===fingerprint)return previous;
  for(const k of ['senate','house']){
   const old=previous.metadata?.civicapi_source_times?.[k];
