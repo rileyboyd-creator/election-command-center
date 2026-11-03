@@ -1,0 +1,37 @@
+# Riley–Cal Election Night Command Center
+
+Open index.html in a modern browser. No installation or payment is required. Data persists in that browser only. For a compatible HTTPS feed, serve this folder locally with `python3 -m http.server 8000` and open http://localhost:8000. Browser CORS restrictions still apply.
+
+## Operating workflow
+Open Update, import Election_2026_Latest.json, then inspect Overview, Senate, Florida and Ladder. Export a backup after updates. Start refresh only for a feed you have permission to use. Browser refresh does not research websites or refresh Library files. Scheduled research is a separate process; import its newest snapshot manually. Automatic browser updates stop when the page closes.
+
+Each record requires source, url, updated (ISO timestamp), scope, definition and status (official/unofficial/projection/polling/turnout). Root fields: version:1, updated, national, races:[], turnout:[], events:[]. Empty arrays mean unavailable. Never substitute zero for unknown vote totals.
+
+National house/senate objects: d, r, other, uncalled, heldD, heldR, heldOther, baselineD:null plus provenance. d/r include seats not up and independents who caucus with that party; held fields are subsets. All seats must sum to 435/100. An uncalled race is not an independent seat. Net change requires a sourced baselineD. Media projections are not certification.
+
+Race example (illustrative schema only; do not import fictional numbers): state:'MI', candidates:[{name:'Verified ballot name',party:'D',votes:integer},...], counted:null, countedDefinition:'', seatStatus:'verified open/incumbent', rule:'verified rule', call:null, plus provenance. A call requires callSource and callUrl. At present one Senate race per state is supported. County returns and polling averages are not implemented.
+
+Turnout records: party, mode, ballots (nonnegative integer), registered (integer or null), plus provenance; status must be turnout. Use a separate scope for statewide versus county data. Do not sum overlapping modes or geography. Candidate support cannot be inferred from registered party.
+
+Events: id (unique), title, type (Senate/House/turnout/correction/poll closure), state (optional), plus provenance. Event timestamps are source publication times, not retrieval times.
+
+## Reliability
+Imports validate atomically and preserve the last good snapshot on failure. Older/equal root timestamps are rejected. Corrections must have a newer snapshot timestamp and an explicit correction event with source; decreasing counts are permitted for corrections. Source timestamps remain visible. Staleness warning appears after ten minutes. Complete snapshots replace prior snapshots, so retain all records you want preserved. Race calls are recorded manually, never inferred. Results are not estimates unless explicitly labelled. Held seats are not election-night wins.
+
+The ladder implements editable lower-bound milestones, requiring both chambers; the highest fully met numerical level is provisional until complete and qualitative conditions are reviewed. Original scenario bands overlap and are not enforced as upper bounds. Attainability is a mathematical ceiling from remaining uncalled seats, not a probability.
+
+## Tonight
+East: Florida turnout then actual returns; wait for the full state's reporting release. Midwest: MI/OH/IA/KS/TX; compare the same counties and election types. West: watch late ballots and election rules, especially Alaska. Check source time before reacting. A partial national popular vote is not representative.
+
+## Limitations
+No licensed API, automatic official-site scraping, county maps, district House data, candidate roster verification, polls, historical comparisons or poll-close schedule is loaded. The map is a labelled tile index, not a geographic choropleth. UT/NV have no regular Senate contest. Florida and Ohio have special contests. Senate rules and all final ballot rosters require verification before loading. Public-source availability is not automated-use permission. JSON import/export is supported; CSV import is not yet supported. No background hosting service is configured. Browser visual QA has not been completed; functional logic is checked with Node.
+
+
+## GitHub refresh setup
+The dashboard fetches the adjacent JSON automatically on load and every 15 minutes when served over HTTP(S). Opened directly from disk, use manual import instead. The GitHub Actions workflow runs at minutes 7, 22, 37, 52 UTC each hour; scheduling is best effort and may be delayed. It also supports Run workflow. It does not research arbitrary websites.
+
+**Live source is not configured.** In repository Settings → Secrets and variables → Actions → Variables, set ELECTION_FEED_URL to a permitted HTTPS endpoint returning this dashboard's JSON schema. Do not use raw AP/DDHQ endpoints: these require separate licensed adapters. Do not place credentials in URLs or repository files. No paid account is provisioned. Missing/failed feeds cause a visible failed workflow; source-health.json and the Markdown report record the failure, while the last good JSON and its data timestamp remain unchanged. The browser shows source health.
+
+To host on GitHub Pages, select Settings → Pages → Deploy from a branch → main → /(root). This requires an account-side setting not available through the connected GitHub tools. Publishing the repository alone does not enable Pages. Repository files and snapshots are public because this repository is public.
+
+The separate ChatGPT hourly task updates the shared files, not this GitHub repository. They are not automatically synchronized. Uploading a refreshed JSON here manually or configuring a compatible feed supplies new browser data. GitHub workflow checks alone cannot produce new election results.
