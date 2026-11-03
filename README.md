@@ -28,7 +28,7 @@ No licensed API, automatic official-site scraping, county maps, district House d
 
 
 ## GitHub refresh setup
-The dashboard fetches the adjacent JSON automatically on load and every 15 minutes when served over HTTP(S). Opened directly from disk, use manual import instead. The GitHub Actions workflow runs at minutes 7, 22, 37, 52 UTC each hour; scheduling is best effort and may be delayed. It also supports Run workflow. It does not research arbitrary websites.
+The dashboard fetches the adjacent JSON automatically on load and every five minutes when served over HTTP(S). Opened directly from disk, use manual import instead. The GitHub Actions workflow runs at minutes 2, 7, 12, 17, 22, 27, 32, 37, 42, 47, 52, 57 UTC each hour; scheduling is best effort and may be delayed. It also supports Run workflow. It does not research arbitrary websites.
 
 **civicAPI is connected as the default results source.** No key or repository variable is needed. The adapter fetches national House (87524) and Senate (87528) payloads, checks the live-data flag and exact election/coverage, then converts candidate totals and civicAPI calls. Attribution: https://civicapi.org . These are unofficial returns and civicAPI projections, not AP calls or certification. Initial payloads had no reported votes and source timestamps dated October 23; source timestamps are preserved and remain visibly stale until the provider changes them.
 
@@ -39,3 +39,9 @@ Missing/failed feeds produce a failed workflow, source-health.json and a Markdow
 To host on GitHub Pages, select Settings → Pages → Deploy from a branch → main → /(root). This requires an account-side setting not available through the connected GitHub tools. Publishing the repository alone does not enable Pages. Repository files and snapshots are public because this repository is public.
 
 The separate ChatGPT hourly task updates the shared files, not this GitHub repository. They are not automatically synchronized. The default civicAPI adapter supplies new browser data when the provider publishes it. Shared ChatGPT files are not automatically synchronized with GitHub.
+
+
+## Fast live mode
+The public dashboard directly polls civicAPI's two national endpoints approximately every 10 seconds while visible, with random jitter and no overlapping requests. It pauses when hidden or manually paused. On errors it falls back to the published snapshot, backs off (30 seconds to five minutes), and honors longer Retry-After values. A success restores the fast cadence. Direct browser access depends on provider CORS; connectivity in GitHub alone does not prove browser access. Source timestamps and stale warnings remain visible. No winner is inferred from vote leads.
+
+GitHub background collection now runs at UTC minutes 2, 7, 12, 17, 22, 27, 32, 37, 42, 47, 52, 57 (best effort). Open dashboards check the published snapshot every minute. Browser and server use the same adapter and validator. Provider data may update less frequently; polling is not a freshness guarantee. Refresh now, pause/resume, and copy-link controls are in the header. No signup is needed to view the public dashboard after Pages is enabled.
