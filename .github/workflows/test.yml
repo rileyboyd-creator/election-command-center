@@ -15,5 +15,6 @@ jobs:
         with:
           node-version: '24'
       - run: node scripts/test-insights.mjs
+      - run: node scripts/test-refresh-health.mjs
       - run: for file in scripts/*.mjs; do node --check "$file"; done
       - run: python -m py_compile scripts/refresh-nc.py
