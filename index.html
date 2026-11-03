@@ -70,7 +70,7 @@ function showConnection(){const age=sourceAge();const notes=[liveState.error?'Co
 function saveFresh(next){
  const oldTimes=data.metadata?.civicapi_source_times,newTimes=next.metadata?.civicapi_source_times;
  if(oldTimes&&newTimes&&Object.keys(oldTimes).some(k=>Date.parse(newTimes[k])<Date.parse(oldTimes[k])))throw Error('Older source snapshot rejected');
- if(next.metadata?.civicapi_fingerprint&&next.metadata.civicapi_fingerprint===data.metadata?.civicapi_fingerprint)return;
+ if(next.metadata?.civicapi_fingerprint&&next.metadata.civicapi_fingerprint===data.metadata?.civicapi_fingerprint&&Boolean(next.contests)===Boolean(data.contests))return;
  if(data.updated&&Date.parse(next.updated)<=Date.parse(data.updated))return;
  apply(next);render();
 }
