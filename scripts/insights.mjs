@@ -28,12 +28,18 @@ export function observe(previous,next,log=emptyLog(),at=new Date().toISOString()
 export function healthEvent(log,status,message,at=new Date().toISOString()){
  const out=structuredClone(log);if(out.health&&out.health.status!==status&&((out.health.status==='error')!==(status==='error')))out.events.push({id:'health-'+at,contest_id:'provider-health',office:'Source',type:'health',before:out.health.status,after:status,title:status==='error'?'Provider unavailable: '+message:'Provider connection recovered',source:'civicAPI',url:'https://civicapi.org/api/v2/status',observed_at:at,source_updated:null,status:'unofficial'});out.health={status,message,checked_at:at};out.checked_at=at;return out;
 }
+export function scenarioEligible(r){
+ if(r.call||r.status==='official')return false;
+ // Exclude only explicitly verified uncontested ballots. Never infer from party or rating.
+ if(r.uncontestedVerified===true&&r.ballotSource&&Number.isFinite(Date.parse(r.ballotVerifiedAt)))return false;
+ return true;
+}
 export function control(snapshot,selections={}){
  const n=snapshot.national?.senate;if(!n)return null;
  const totals={d:n.d,r:n.r,other:n.other,uncalled:n.uncalled},ranges={d:[n.d,n.d],r:[n.r,n.r],other:[n.other,n.other]},races=contests(snapshot).filter(r=>r.office==='Senate'&&!r.call);
  for(const r of races){const parties=new Set(r.candidates.map(c=>c.party==='Democratic'?'d':c.party==='Republican'?'r':'other'));for(const p of parties)ranges[p][1]++;if(parties.size===1)ranges[[...parties][0]][0]++;
- const c=r.candidates.find(c=>key(c)===selections[r.id]);if(c){totals[c.party==='Democratic'?'d':c.party==='Republican'?'r':'other']++;totals.uncalled--;}}
- return {totals,ranges,races,needed:{d:Math.max(0,51-totals.d),r:Math.max(0,50-totals.r)},baselineD:n.baselineD,netD:n.baselineD==null?null:totals.d-n.baselineD};
+ const c=scenarioEligible(r)&&r.candidates.find(c=>key(c)===selections[r.id]);if(c){totals[c.party==='Democratic'?'d':c.party==='Republican'?'r':'other']++;totals.uncalled--;}}
+ return {totals,ranges,races:races.filter(scenarioEligible),needed:{d:Math.max(0,51-totals.d),r:Math.max(0,50-totals.r)},baselineD:n.baselineD,netD:n.baselineD==null?null:totals.d-n.baselineD};
 }
 export function twoPartyMargin(candidates){const d=candidates.filter(c=>c.party==='Democratic').reduce((s,c)=>s+c.votes,0),r=candidates.filter(c=>c.party==='Republican').reduce((s,c)=>s+c.votes,0);return d+r?100*(d-r)/(d+r):null;}
 export function swing(current,historical){const a=twoPartyMargin(current),b=twoPartyMargin(historical);return a==null||b==null?null:a-b;}
