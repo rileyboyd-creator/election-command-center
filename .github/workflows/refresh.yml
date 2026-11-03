@@ -13,6 +13,7 @@ on:
       - 'scripts/insights.mjs'
       - 'scripts/refresh-counties.mjs'
       - 'scripts/refresh-nc.py'
+      - 'scripts/check-refresh-health.mjs'
   workflow_dispatch:
 permissions:
   contents: write
@@ -32,6 +33,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
+      - name: Record refresh start
+        run: echo "REFRESH_STARTED_AT=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_ENV"
       - name: Fetch and validate source data
         id: fetch
         continue-on-error: true
@@ -60,8 +63,10 @@ jobs:
             git pull --rebase origin main
             git push
           fi
-      - name: Report source failure
-        if: steps.fetch.outcome == 'failure' || steps.states.outcome == 'failure' || steps.counties.outcome == 'failure' || steps.secondary.outcome == 'failure'
-        run: |
-          echo 'Feed unavailable or invalid. Last good election data retained; see source-health.json.'
-          exit 1
+      - name: Report refresh health
+        env:
+          FETCH_OUTCOME: ${{ steps.fetch.outcome }}
+          STATES_OUTCOME: ${{ steps.states.outcome }}
+          COUNTIES_OUTCOME: ${{ steps.counties.outcome }}
+          SECONDARY_OUTCOME: ${{ steps.secondary.outcome }}
+        run: node scripts/check-refresh-health.mjs
