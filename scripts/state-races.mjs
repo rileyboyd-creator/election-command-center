@@ -53,8 +53,8 @@ async function tick(){
  const state=active;busy=true;
  try{
  if(Date.now()>=nextCatalog){try{
- const data=validateCatalog(await getJSON(searchURL(state)),state);cache.set(state,{data,checked:new Date().toISOString(),fallback:false});catalogError='';nextCatalog=Date.now()+60000;if(state===active)rows();
- }catch(e){catalogError=e.message;nextCatalog=Date.now()+60000;
+ const data=validateCatalog(await getJSON(searchURL(state)),state);cache.set(state,{data,checked:new Date().toISOString(),fallback:false});if(state===active){catalogError='';nextCatalog=Date.now()+60000;rows();}
+ }catch(e){if(state===active){catalogError=e.message;nextCatalog=Date.now()+60000;}
  if(!cache.has(state)){try{const snap=await getJSON('./data/states/'+state+'.json');validateCatalog(snap.data,state);cache.set(state,{data:snap.data,checked:snap.retrieved_at,fallback:true});if(state===active)rows()}catch{}}
  throw e;}}
  if(state===active&&selected&&Date.now()>=nextDetail){const id=selected;try{
@@ -64,7 +64,7 @@ async function tick(){
  if(active===state&&selected===id){detail={id,data:d,checked:new Date().toISOString()};detailError='';drawDetail()}nextDetail=Date.now()+10000;
  }catch(e){if(active===state&&selected===id){detailError=e.message;drawDetail()}throw e;}}
  failures=0;
- }catch(e){failures++;retryAt=Date.now()+Math.max(e.retryAfter||0,Math.min(300000,30000*2**Math.min(failures-1,4)));}
+ }catch(e){if(state!==active)return;failures++;retryAt=Date.now()+Math.max(e.retryAfter||0,Math.min(300000,30000*2**Math.min(failures-1,4)));}
  finally{busy=false;health()}
 }
 export function mount(state,opts){options=opts;if(active!==state){active=state;selected=null;detail=null;detailError=catalogError='';query='';group='All races';offset=0;nextCatalog=nextDetail=retryAt=0;failures=0}render();tick()}
