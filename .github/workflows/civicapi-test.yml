@@ -1,0 +1,51 @@
+name: Test CivicAPI connection
+on:
+  push:
+    paths:
+      - '.github/workflows/civicapi-test.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: civicapi-test
+  cancel-in-progress: false
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Test documented public endpoints
+        run: |
+          node --input-type=module <<'JS'
+          import fs from 'node:fs';
+          const endpoints={
+            status:'https://civicapi.org/api/v2/status',
+            senate:'https://civicapi.org/api/v2/race/87528',
+            house:'https://civicapi.org/api/v2/race/87524',
+            senateSearch:'https://civicapi.org/api/v2/race/search?startDate=2026-11-03&endDate=2026-11-03&country=US&query=Senate&limit=10'
+          };
+          const report={checked_at:new Date().toISOString(),provider:'civicAPI',source:'https://civicapi.org/api-documentation',purpose:'Connectivity and schema test only. Does not update election results.',endpoints:{}};
+          for(const [name,url] of Object.entries(endpoints)){
+            try{
+              const r=await fetch(url,{headers:{Accept:'application/json'},signal:AbortSignal.timeout(20000)});
+              if(!r.ok)throw Error('HTTP '+r.status);
+              const d=await r.json();
+              report.endpoints[name]={url,ok:true,data:d};
+            }catch(e){report.endpoints[name]={url,ok:false,error:e.message};}
+          }
+          fs.writeFileSync('civicapi-probe.json',JSON.stringify(report,null,2)+'\n');
+          console.log(JSON.stringify(Object.fromEntries(Object.entries(report.endpoints).map(([k,v])=>[k,{ok:v.ok,error:v.error,keys:Object.keys(v.data||{})}]))));
+          JS
+      - name: Save test report
+        run: |
+          git config user.name 'election-refresh[bot]'
+          git config user.email 'election-refresh[bot]@users.noreply.github.com'
+          git add civicapi-probe.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Record CivicAPI connection and schema test'
+            git push
+          fi
