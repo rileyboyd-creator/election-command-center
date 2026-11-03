@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "updated": "2026-11-03T17:04:40.961918+00:00",
+  "national": {
+    "house": {
+      "d": 0,
+      "r": 0,
+      "other": 0,
+      "uncalled": 435,
+      "heldD": 0,
+      "heldR": 0,
+      "heldOther": 0,
+      "baselineD": null,
+      "source": "The Guardian, reporting AP results",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2026/nov/03/midterm-elections-full-results-senate-house-governor-races",
+      "updated": "2026-11-03T17:04:40.961918+00:00",
+      "scope": "United States",
+      "status": "unofficial",
+      "definition": "Retrieved source snapshot; seats not up plus AP media calls. Not certified. Source publication 2026-11-03 07:00 EST; exact source refresh time unavailable."
+    },
+    "senate": {
+      "d": 34,
+      "r": 31,
+      "other": 0,
+      "uncalled": 35,
+      "heldD": 34,
+      "heldR": 31,
+      "heldOther": 0,
+      "baselineD": null,
+      "source": "The Guardian, reporting AP results",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2026/nov/03/midterm-elections-full-results-senate-house-governor-races",
+      "updated": "2026-11-03T17:04:40.961918+00:00",
+      "scope": "United States",
+      "status": "unofficial",
+      "definition": "Retrieved source snapshot; seats not up plus AP media calls. Not certified. Source publication 2026-11-03 07:00 EST; exact source refresh time unavailable."
+    }
+  },
+  "races": [],
+  "turnout": [],
+  "events": [],
+  "comparisons": [],
+  "metadata": {
+    "retrieved_at": "2026-11-03T17:04:40.961918+00:00",
+    "confirmed_results": [],
+    "estimates": [],
+    "caucus_note": "Senate Democratic caucus includes two independents. Held seats are not newly won seats.",
+    "florida": "Official turnout table discoverable through search, but numeric cells absent; direct fetch returned 403.",
+    "limitations": [
+      "No machine results feed connected",
+      "No race-level candidate totals verified",
+      "No certified results loaded"
+    ]
+  }
+}

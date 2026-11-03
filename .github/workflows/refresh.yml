@@ -1,0 +1,39 @@
+name: Refresh election snapshot
+on:
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: election-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Fetch and validate source data
+        id: fetch
+        continue-on-error: true
+        env:
+          ELECTION_FEED_URL: ${{ vars.ELECTION_FEED_URL }}
+        run: node scripts/refresh.mjs
+      - name: Commit snapshot and health
+        run: |
+          git config user.name 'election-refresh[bot]'
+          git config user.email 'election-refresh[bot]@users.noreply.github.com'
+          git add Election_2026_Latest.json Election_2026_Status.md source-health.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh sourced election snapshot and health'
+            git push
+          fi
+      - name: Report source failure
+        if: steps.fetch.outcome == 'failure'
+        run: |
+          echo 'Feed unavailable or not configured. Last good election data retained; see source-health.json.'
+          exit 1
