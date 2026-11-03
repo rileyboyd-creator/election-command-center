@@ -3,12 +3,16 @@ on:
   schedule:
     - cron: '2-57/5 * * * *'
   push:
+    branches: [main]
     paths:
       - 'scripts/civicapi.mjs'
       - 'scripts/refresh.mjs'
       - '.github/workflows/refresh.yml'
       - 'scripts/state-races.mjs'
       - 'scripts/refresh-states.mjs'
+      - 'scripts/insights.mjs'
+      - 'scripts/refresh-counties.mjs'
+      - 'scripts/refresh-nc.py'
   workflow_dispatch:
 permissions:
   contents: write
@@ -38,18 +42,26 @@ jobs:
         id: states
         continue-on-error: true
         run: node scripts/refresh-states.mjs
+      - name: Fetch county results
+        id: counties
+        continue-on-error: true
+        run: node scripts/refresh-counties.mjs
+      - name: Fetch independent North Carolina results
+        id: secondary
+        continue-on-error: true
+        run: python scripts/refresh-nc.py
       - name: Commit snapshot and health
         run: |
           git config user.name 'election-refresh[bot]'
           git config user.email 'election-refresh[bot]@users.noreply.github.com'
-          git add Election_2026_Latest.json Election_2026_Status.md source-health.json data/states
+          git add Election_2026_Latest.json Election_2026_Status.md source-health.json Election_2026_Changes.json data/states data/counties data/secondary
           if ! git diff --cached --quiet; then
             git commit -m 'Refresh sourced election snapshot and health'
             git pull --rebase origin main
             git push
           fi
       - name: Report source failure
-        if: steps.fetch.outcome == 'failure' || steps.states.outcome == 'failure'
+        if: steps.fetch.outcome == 'failure' || steps.states.outcome == 'failure' || steps.counties.outcome == 'failure' || steps.secondary.outcome == 'failure'
         run: |
           echo 'Feed unavailable or invalid. Last good election data retained; see source-health.json.'
           exit 1
