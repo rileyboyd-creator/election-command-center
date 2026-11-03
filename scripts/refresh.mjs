@@ -14,7 +14,7 @@ try {
  const html=fs.readFileSync('index.html','utf8');
  const code=html.match(/<script>([\s\S]*?)<\/script>/)[1];
  const nodes={};
- const context={localStorage:{getItem:k=>k==='rc-data'?JSON.stringify(current):null,setItem:()=>{}},document:{getElementById:id=>nodes[id]??={innerHTML:'',textContent:'',value:''},querySelectorAll:()=>[]},setInterval:()=>0,clearInterval:()=>{},Date,Intl,console};
+ const context={location:{protocol:'file:'},localStorage:{getItem:k=>k==='rc-data'?JSON.stringify(current):null,setItem:()=>{}},document:{getElementById:id=>nodes[id]??={innerHTML:'',textContent:'',value:''},querySelectorAll:()=>[]},setInterval:()=>0,clearInterval:()=>{},Date,Intl,console};
  vm.createContext(context);vm.runInContext(code,context);context.next=next;
  if(next.updated===current.updated){if(JSON.stringify(next)!==JSON.stringify(current))throw Error('Conflicting payload with unchanged timestamp');health.status='unchanged';health.message='Feed checked; source snapshot unchanged.';}
  else {
@@ -31,3 +31,4 @@ for(const e of current.events.slice().sort((a,b)=>Date.parse(b.updated)-Date.par
 lines.push('','See JSON for individual provenance, estimates supplied by sources, caveats and corrections. A refresh check timestamp does not mean source data changed.');
 fs.writeFileSync('Election_2026_Status.md',lines.join('\n')+'\n');
 console.log(JSON.stringify(health));
+
