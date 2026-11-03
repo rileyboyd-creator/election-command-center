@@ -1,6 +1,6 @@
 # Election 2026 — latest status
 
-Refresh check: 2026-11-03T22:54:58.666Z
+Refresh check: 2026-11-03T23:27:56.427Z
 Source snapshot: 2026-11-03T18:52:29.814Z
 Feed health: error — The operation was aborted due to timeout
 
