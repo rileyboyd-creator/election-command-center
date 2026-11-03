@@ -1,8 +1,11 @@
 import fs from 'node:fs';
 import vm from 'node:vm';
+import {observe,emptyLog,healthEvent} from './insights.mjs';
 import {fetchCivic} from './civicapi.mjs';
 const file='Election_2026_Latest.json', now=new Date().toISOString();
 let current=JSON.parse(fs.readFileSync(file,'utf8'));
+const before=current;
+let changes=fs.existsSync('Election_2026_Changes.json')?JSON.parse(fs.readFileSync('Election_2026_Changes.json','utf8')):emptyLog();
 const health={checked_at:now,status:'not_configured',last_data_update:current.updated,message:'civicAPI refresh has not completed.'};
 try {
  const url=process.env.ELECTION_FEED_URL;
@@ -26,6 +29,8 @@ try {
  current=next;health.status='updated';health.last_data_update=next.updated;health.message='Validated source snapshot saved from '+(url?'configured feed':'civicAPI')+'. Source timestamps may predate retrieval; inspect staleness.';
  }
 } catch(error) {health.message=error.message;health.status='error';process.exitCode=1;}
+changes=healthEvent(observe(before,current,changes,now),health.status,health.message,now);
+fs.writeFileSync('Election_2026_Changes.json.tmp',JSON.stringify(changes));fs.renameSync('Election_2026_Changes.json.tmp','Election_2026_Changes.json');
 fs.writeFileSync('source-health.json',JSON.stringify(health,null,2)+'\n');
 const lines=['# Election 2026 — latest status','',`Refresh check: ${now}`,`Source snapshot: ${current.updated??'unavailable'}`,`Feed health: ${health.status} — ${health.message}`,'','## Seat allocations'];
 for(const [key,total] of [['house',435],['senate',100]]){const c=current.national?.[key];if(!c){lines.push(`- ${key}: unavailable`);continue;}lines.push(`- ${key}: Democratic caucus ${c.d}; Republican caucus ${c.r}; other ${c.other}; uncalled ${c.uncalled} / ${total}. Not-up subsets: D ${c.heldD}, R ${c.heldR}, other ${c.heldOther}. Status: ${c.status}. Source: [${c.source}](${c.url}), timestamp ${c.updated}.`);}
