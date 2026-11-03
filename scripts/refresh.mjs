@@ -1,15 +1,18 @@
 import fs from 'node:fs';
 import vm from 'node:vm';
+import {fetchCivic} from './civicapi.mjs';
 const file='Election_2026_Latest.json', now=new Date().toISOString();
 let current=JSON.parse(fs.readFileSync(file,'utf8'));
-const health={checked_at:now,status:'not_configured',last_data_update:current.updated,message:'No permitted results feed configured. Cached snapshot preserved.'};
+const health={checked_at:now,status:'not_configured',last_data_update:current.updated,message:'civicAPI refresh has not completed.'};
 try {
  const url=process.env.ELECTION_FEED_URL;
- if(!url) throw Error(health.message);
- if(!url.startsWith('https://')) throw Error('ELECTION_FEED_URL must use HTTPS');
- const response=await fetch(url,{signal:AbortSignal.timeout(20000),headers:{Accept:'application/json'}});
- if(!response.ok) throw Error('Feed HTTP '+response.status);
- const next=await response.json();
+ let next;
+ if(url){
+  if(!url.startsWith('https://'))throw Error('ELECTION_FEED_URL must use HTTPS');
+  const response=await fetch(url,{signal:AbortSignal.timeout(20000),headers:{Accept:'application/json'}});
+  if(!response.ok)throw Error('Feed HTTP '+response.status);
+  next=await response.json();
+ }else next=await fetchCivic(current);
  // Reuse the exact dashboard validator so both ingestion paths enforce the same contract.
  const html=fs.readFileSync('index.html','utf8');
  const code=html.match(/<script>([\s\S]*?)<\/script>/)[1];
@@ -20,9 +23,9 @@ try {
  else {
  vm.runInContext('validate(next)',context);
  fs.writeFileSync(file+'.tmp',JSON.stringify(next,null,2)+'\n');fs.renameSync(file+'.tmp',file);
- current=next;health.status='updated';health.last_data_update=next.updated;health.message='Validated source snapshot saved.';
+ current=next;health.status='updated';health.last_data_update=next.updated;health.message='Validated source snapshot saved from '+(url?'configured feed':'civicAPI')+'. Source timestamps may predate retrieval; inspect staleness.';
  }
-} catch(error) {health.message=error.message;health.status=process.env.ELECTION_FEED_URL?'error':'not_configured';process.exitCode=1;}
+} catch(error) {health.message=error.message;health.status='error';process.exitCode=1;}
 fs.writeFileSync('source-health.json',JSON.stringify(health,null,2)+'\n');
 const lines=['# Election 2026 — latest status','',`Refresh check: ${now}`,`Source snapshot: ${current.updated??'unavailable'}`,`Feed health: ${health.status} — ${health.message}`,'','## Seat allocations'];
 for(const [key,total] of [['house',435],['senate',100]]){const c=current.national?.[key];if(!c){lines.push(`- ${key}: unavailable`);continue;}lines.push(`- ${key}: Democratic caucus ${c.d}; Republican caucus ${c.r}; other ${c.other}; uncalled ${c.uncalled} / ${total}. Not-up subsets: D ${c.heldD}, R ${c.heldR}, other ${c.heldOther}. Status: ${c.status}. Source: [${c.source}](${c.url}), timestamp ${c.updated}.`);}
@@ -31,4 +34,3 @@ for(const e of current.events.slice().sort((a,b)=>Date.parse(b.updated)-Date.par
 lines.push('','See JSON for individual provenance, estimates supplied by sources, caveats and corrections. A refresh check timestamp does not mean source data changed.');
 fs.writeFileSync('Election_2026_Status.md',lines.join('\n')+'\n');
 console.log(JSON.stringify(health));
-
