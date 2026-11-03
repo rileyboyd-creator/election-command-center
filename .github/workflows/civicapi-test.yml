@@ -47,5 +47,6 @@ jobs:
           git add civicapi-probe.json
           if ! git diff --cached --quiet; then
             git commit -m 'Record CivicAPI connection and schema test'
+            git pull --rebase origin main
             git push
           fi
