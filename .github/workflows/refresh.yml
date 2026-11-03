@@ -7,6 +7,8 @@ on:
       - 'scripts/civicapi.mjs'
       - 'scripts/refresh.mjs'
       - '.github/workflows/refresh.yml'
+      - 'scripts/state-races.mjs'
+      - 'scripts/refresh-states.mjs'
   workflow_dispatch:
 permissions:
   contents: write
@@ -16,7 +18,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -28,18 +30,22 @@ jobs:
         env:
           ELECTION_FEED_URL: ${{ vars.ELECTION_FEED_URL }}
         run: node scripts/refresh.mjs
+      - name: Fetch governor and ballot-measure catalogues
+        id: states
+        continue-on-error: true
+        run: node scripts/refresh-states.mjs
       - name: Commit snapshot and health
         run: |
           git config user.name 'election-refresh[bot]'
           git config user.email 'election-refresh[bot]@users.noreply.github.com'
-          git add Election_2026_Latest.json Election_2026_Status.md source-health.json
+          git add Election_2026_Latest.json Election_2026_Status.md source-health.json data/states
           if ! git diff --cached --quiet; then
             git commit -m 'Refresh sourced election snapshot and health'
             git pull --rebase origin main
             git push
           fi
       - name: Report source failure
-        if: steps.fetch.outcome == 'failure'
+        if: steps.fetch.outcome == 'failure' || steps.states.outcome == 'failure'
         run: |
           echo 'Feed unavailable or invalid. Last good election data retained; see source-health.json.'
           exit 1
