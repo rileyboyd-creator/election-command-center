@@ -16,9 +16,9 @@ try {
  // Reuse the exact dashboard validator so both ingestion paths enforce the same contract.
  const html=fs.readFileSync('index.html','utf8');
  const code=html.match(/<script>([\s\S]*?)<\/script>/)[1];
- const nodes={};
- const context={location:{protocol:'file:'},localStorage:{getItem:k=>k==='rc-data'?JSON.stringify(current):null,setItem:()=>{}},document:{getElementById:id=>nodes[id]??={innerHTML:'',textContent:'',value:''},querySelectorAll:()=>[]},setInterval:()=>0,clearInterval:()=>{},Date,Intl,console};
- vm.createContext(context);vm.runInContext(code,context);context.next=next;
+ const validationCode=code.slice(code.indexOf('function integer('),code.indexOf('function apply('));
+ const context={data:current,Date,console};
+ vm.createContext(context);vm.runInContext(validationCode,context);context.next=next;
  if(next.updated===current.updated){if(JSON.stringify(next)!==JSON.stringify(current))throw Error('Conflicting payload with unchanged timestamp');health.status='unchanged';health.message='Feed checked; source snapshot unchanged.';}
  else {
  vm.runInContext('validate(next)',context);
