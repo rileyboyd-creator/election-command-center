@@ -1,0 +1,19 @@
+name: Validate election upgrades
+on:
+  push:
+    branches: [main, election-night-upgrades]
+    paths: ['index.html', 'scripts/**', 'data/history/**', 'data/poll-closing.json', '.github/workflows/test.yml']
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: node scripts/test-insights.mjs
+      - run: for file in scripts/*.mjs; do node --check "$file"; done
+      - run: python -m py_compile scripts/refresh-nc.py
