@@ -12,7 +12,7 @@ export function observe(previous,next,log=emptyLog(),at=new Date().toISOString()
   if(last&&Date.parse(r.updated)<Date.parse(last.source_updated))continue;
   const signature=x=>JSON.stringify([x.source_updated,x.total,x.margin,x.pp,x.progress,x.call,x.candidates]);
   if(!last||signature(last)!==signature(point))series.push(point);
-  if(!p)continue; if(Date.parse(r.updated)<Date.parse(p.updated))continue;
+  if(!p){if(r.office==='County'&&m.total>0)emit(r,'county_available',null,m.total,'County returns now available');continue;} if(Date.parse(r.updated)<Date.parse(p.updated))continue;
   const a=metrics(p),before=new Map(p.candidates.map(c=>[key(c),c.votes]));
   const correction=p.candidates.length!==r.candidates.length||r.candidates.some(c=>{const old=p.candidates.find(x=>key(x)===key(c)||x.name===c.name&&x.party===c.party);return !old||c.votes<old.votes||c.name!==old.name||c.party!==old.party});
   if(correction&&JSON.stringify(p.candidates)!==JSON.stringify(r.candidates))emit(r,'correction',p.candidates,r.candidates,'Candidate totals or roster corrected','unofficial');
@@ -31,7 +31,7 @@ export function healthEvent(log,status,message,at=new Date().toISOString()){
 export function control(snapshot,selections={}){
  const n=snapshot.national?.senate;if(!n)return null;
  const totals={d:n.d,r:n.r,other:n.other,uncalled:n.uncalled},ranges={d:[n.d,n.d],r:[n.r,n.r],other:[n.other,n.other]},races=contests(snapshot).filter(r=>r.office==='Senate'&&!r.call);
- for(const r of races){const parties=new Set(r.candidates.map(c=>c.party==='Democratic'?'d':c.party==='Republican'?'r':'other'));for(const p of parties)ranges[p][1]++;
+ for(const r of races){const parties=new Set(r.candidates.map(c=>c.party==='Democratic'?'d':c.party==='Republican'?'r':'other'));for(const p of parties)ranges[p][1]++;if(parties.size===1)ranges[[...parties][0]][0]++;
  const c=r.candidates.find(c=>key(c)===selections[r.id]);if(c){totals[c.party==='Democratic'?'d':c.party==='Republican'?'r':'other']++;totals.uncalled--;}}
  return {totals,ranges,races,needed:{d:Math.max(0,51-totals.d),r:Math.max(0,50-totals.r)},baselineD:n.baselineD,netD:n.baselineD==null?null:totals.d-n.baselineD};
 }
