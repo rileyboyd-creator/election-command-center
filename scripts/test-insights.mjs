@@ -1,6 +1,8 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';import vm from 'node:vm';
 import {observe,emptyLog,healthEvent,control,twoPartyMargin,swing,closingStatus,reconcile} from './insights.mjs';
+import {getJSON,validateCatalog,validateDetail} from './state-races.mjs';
+import {countyRows} from './county.mjs';
 const at='2026-11-03T20:00:00Z',later='2026-11-03T20:05:00Z';
 const candidate=(id,party,votes)=>({id,name:id,party,votes});
 const race={id:'US-2026-SEN-XX',state:'XX',office:'Senate',source:'fixture',url:'https://example.test',updated:at,call:null,reportedProgress:0,candidates:[candidate('d','Democratic',100),candidate('r','Republican',90),candidate('i','Independent',5)]};
@@ -22,4 +24,14 @@ const code=fs.readFileSync('index.html','utf8').match(/<script>([\s\S]*?)<\/scri
 for(const path of ['insights.mjs','insights-ui.mjs','county.mjs','refresh-counties.mjs'])assert(fs.readFileSync('scripts/'+path,'utf8').length>0);
 const baseline=JSON.parse(fs.readFileSync('data/history/NC-2022-senate.json','utf8'));assert.equal(baseline.counties.length,100);assert.equal(baseline.candidates.find(c=>c.name==='Ted Budd').votes,1905786);assert.equal(baseline.candidates.find(c=>c.name==='Cheri Beasley').votes,1784049);
 const timeline=JSON.parse(fs.readFileSync('data/poll-closing.json','utf8'));for(const w of timeline.windows){assert(Date.parse(w.first)<=Date.parse(w.last));assert(w.source.startsWith('https://'));}const ne=timeline.windows.find(w=>w.state==='NE');assert.equal(ne.first,ne.last);const fl=timeline.windows.find(w=>w.state==='FL');assert.equal(Date.parse(fl.last)-Date.parse(fl.first),3600000);
+assert.deepEqual(countyRows({region_results:{}}),[]);
+assert.throws(()=>validateCatalog({count:1,races:[]},'NC'));
+assert.throws(()=>validateDetail({test_data:true},'NC'));
+const originalFetch=globalThis.fetch;
+try{
+ globalThis.fetch=async()=>new Response('not json',{status:200});await assert.rejects(()=>getJSON('https://example.test'),SyntaxError);
+ globalThis.fetch=async()=>new Response('',{status:200});await assert.rejects(()=>getJSON('https://example.test'),SyntaxError);
+ globalThis.fetch=async()=>new Response('',{status:429,headers:{'Retry-After':'90'}});await assert.rejects(()=>getJSON('https://example.test'),e=>e.message==='HTTP 429'&&e.retryAfter===90000);
+ globalThis.fetch=async()=>{throw new DOMException('Timed out','TimeoutError')};await assert.rejects(()=>getJSON('https://example.test'),e=>e.name==='TimeoutError');
+}finally{globalThis.fetch=originalFetch}
 console.log('PASS: snapshot changes, duplicates, corrections, calls/retractions, out-of-order data, outages/recovery, independent scenarios, margins/swings, split-zone timeline, source conflicts, historical totals and syntax. Synthetic fixtures remain in this test only.');
