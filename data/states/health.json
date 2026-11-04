@@ -1,13 +1,13 @@
 {
-  "checked_at": "2026-11-04T18:38:13.977Z",
+  "checked_at": "2026-11-04T19:38:09.448Z",
   "states": {
-    "AL": {
-      "status": "ok",
-      "count": 5
-    },
     "AK": {
       "status": "ok",
       "count": 3
+    },
+    "AL": {
+      "status": "ok",
+      "count": 5
     },
     "AZ": {
       "status": "ok",
@@ -17,65 +17,57 @@
       "status": "ok",
       "count": 89
     },
-    "CA": {
+    "CO": {
       "status": "ok",
-      "count": 127
-    },
-    "CT": {
-      "status": "ok",
-      "count": 1
+      "count": 268
     },
     "DE": {
       "status": "ok",
       "count": 4
     },
-    "CO": {
+    "CT": {
       "status": "ok",
-      "count": 268
+      "count": 1
     },
-    "FL": {
+    "CA": {
       "status": "ok",
-      "count": 181
-    },
-    "GA": {
-      "status": "ok",
-      "count": 136
+      "count": 127
     },
     "HI": {
       "status": "ok",
       "count": 2
     },
-    "ID": {
+    "GA": {
       "status": "ok",
-      "count": 84
+      "count": 136
     },
     "IL": {
       "status": "ok",
       "count": 43
     },
-    "IN": {
+    "IA": {
       "status": "ok",
-      "count": 47
+      "count": 90
+    },
+    "ID": {
+      "status": "ok",
+      "count": 84
     },
     "KS": {
       "status": "ok",
       "count": 3
     },
-    "IA": {
+    "IN": {
       "status": "ok",
-      "count": 90
+      "count": 47
+    },
+    "FL": {
+      "status": "ok",
+      "count": 181
     },
     "KY": {
       "status": "ok",
       "count": 14
-    },
-    "LA": {
-      "status": "ok",
-      "count": 100
-    },
-    "ME": {
-      "status": "ok",
-      "count": 144
     },
     "MD": {
       "status": "ok",
@@ -85,37 +77,41 @@
       "status": "ok",
       "count": 10
     },
-    "MI": {
+    "LA": {
       "status": "ok",
-      "count": 243
-    },
-    "MT": {
-      "status": "ok",
-      "count": 3
+      "count": 100
     },
     "MS": {
       "status": "ok",
       "count": 0
     },
+    "ME": {
+      "status": "ok",
+      "count": 144
+    },
+    "MI": {
+      "status": "ok",
+      "count": 243
+    },
     "MN": {
       "status": "ok",
       "count": 2
-    },
-    "NV": {
-      "status": "ok",
-      "count": 9
     },
     "NE": {
       "status": "ok",
       "count": 5
     },
+    "NH": {
+      "status": "ok",
+      "count": 3
+    },
     "NJ": {
       "status": "ok",
       "count": 37
     },
-    "NH": {
+    "NM": {
       "status": "ok",
-      "count": 3
+      "count": 53
     },
     "NY": {
       "status": "ok",
@@ -125,33 +121,21 @@
       "status": "ok",
       "count": 6
     },
-    "NM": {
+    "MT": {
       "status": "ok",
-      "count": 53
+      "count": 3
+    },
+    "NV": {
+      "status": "ok",
+      "count": 9
     },
     "NC": {
       "status": "ok",
       "count": 42
     },
-    "ND": {
-      "status": "ok",
-      "count": 77
-    },
-    "OK": {
-      "status": "ok",
-      "count": 36
-    },
     "OR": {
       "status": "ok",
       "count": 96
-    },
-    "OH": {
-      "status": "ok",
-      "count": 2
-    },
-    "SC": {
-      "status": "ok",
-      "count": 45
     },
     "PA": {
       "status": "ok",
@@ -161,45 +145,61 @@
       "status": "ok",
       "count": 109
     },
+    "ND": {
+      "status": "ok",
+      "count": 77
+    },
+    "OH": {
+      "status": "ok",
+      "count": 2
+    },
     "SD": {
       "status": "ok",
       "count": 14
     },
-    "TN": {
+    "SC": {
       "status": "ok",
-      "count": 1
+      "count": 45
     },
     "UT": {
       "status": "ok",
       "count": 19
     },
-    "VT": {
+    "TX": {
       "status": "ok",
-      "count": 25
+      "count": 1
     },
     "VA": {
       "status": "ok",
       "count": 75
     },
+    "VT": {
+      "status": "ok",
+      "count": 25
+    },
     "WV": {
       "status": "ok",
       "count": 21
-    },
-    "TX": {
-      "status": "ok",
-      "count": 1
     },
     "WA": {
       "status": "ok",
       "count": 144
     },
-    "WI": {
+    "OK": {
       "status": "ok",
-      "count": 11
+      "count": 36
     },
     "WY": {
       "status": "ok",
       "count": 2
+    },
+    "TN": {
+      "status": "ok",
+      "count": 1
+    },
+    "WI": {
+      "status": "ok",
+      "count": 11
     }
   }
 }
