@@ -1,7 +1,32 @@
 {
-  "checked_at": "2026-11-03T23:28:21.561Z",
+  "checked_at": "2026-11-04T00:02:44.276Z",
   "states": {
     "AL": {
+      "status": "error",
+      "message": "HTTP 502",
+      "last_good_preserved": true
+    },
+    "AZ": {
+      "status": "error",
+      "message": "HTTP 502",
+      "last_good_preserved": true
+    },
+    "CA": {
+      "status": "error",
+      "message": "HTTP 502",
+      "last_good_preserved": true
+    },
+    "CO": {
+      "status": "error",
+      "message": "HTTP 502",
+      "last_good_preserved": true
+    },
+    "DE": {
+      "status": "error",
+      "message": "HTTP 502",
+      "last_good_preserved": true
+    },
+    "AR": {
       "status": "error",
       "message": "HTTP 503",
       "last_good_preserved": true
@@ -10,229 +35,112 @@
       "status": "ok",
       "count": 3
     },
-    "AZ": {
+    "CT": {
       "status": "ok",
-      "count": 9
-    },
-    "CA": {
-      "status": "error",
-      "message": "HTTP 503",
-      "last_good_preserved": true
-    },
-    "AR": {
-      "status": "ok",
-      "count": 88
+      "count": 1
     },
     "FL": {
       "status": "ok",
       "count": 175
     },
-    "CO": {
-      "status": "ok",
-      "count": 63
-    },
-    "HI": {
-      "status": "ok",
-      "count": 2
-    },
     "GA": {
       "status": "ok",
       "count": 136
-    },
-    "IL": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "IN": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "IA": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "KS": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "KY": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "LA": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "ME": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "MD": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "MA": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "MI": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "MN": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "MS": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "MO": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "MT": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "NE": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "NV": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "NH": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "NJ": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
     },
     "ID": {
       "status": "ok",
       "count": 77
     },
-    "NM": {
+    "HI": {
+      "status": "ok",
+      "count": 2
+    },
+    "IL": {
+      "status": "ok",
+      "count": 43
+    },
+    "KS": {
       "status": "error",
-      "message": "HTTP 502",
+      "message": "HTTP 503",
+      "last_good_preserved": true
+    },
+    "IA": {
+      "status": "ok",
+      "count": 90
+    },
+    "KY": {
+      "status": "ok",
+      "count": 14
+    },
+    "IN": {
+      "status": "error",
+      "message": "The operation was aborted due to timeout",
+      "last_good_preserved": true
+    },
+    "ME": {
+      "status": "error",
+      "message": "HTTP 503",
+      "last_good_preserved": true
+    },
+    "LA": {
+      "status": "error",
+      "message": "HTTP 503",
+      "last_good_preserved": true
+    },
+    "MD": {
+      "status": "error",
+      "message": "HTTP 503",
+      "last_good_preserved": true
+    },
+    "MA": {
+      "status": "ok",
+      "count": 10
+    },
+    "MO": {
+      "status": "error",
+      "message": "HTTP 503",
+      "last_good_preserved": true
+    },
+    "MS": {
+      "status": "error",
+      "message": "HTTP 503",
+      "last_good_preserved": true
+    },
+    "MI": {
+      "status": "ok",
+      "count": 243
+    },
+    "MN": {
+      "status": "ok",
+      "count": 2
+    },
+    "NE": {
+      "status": "ok",
+      "count": 5
+    },
+    "NV": {
+      "status": "ok",
+      "count": 9
+    },
+    "NH": {
+      "status": "ok",
+      "count": 3
+    },
+    "MT": {
+      "status": "error",
+      "message": "The operation was aborted due to timeout",
       "last_good_preserved": true
     },
     "NY": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "NC": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "ND": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "OK": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "OR": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "PA": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "RI": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "SC": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "SD": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "TN": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "TX": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "UT": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "VT": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "VA": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "WA": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "WV": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "WI": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "WY": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
-    },
-    "CT": {
       "status": "ok",
       "count": 1
     },
-    "DE": {
+    "NJ": {
+      "status": "error",
+      "message": "The operation was aborted due to timeout",
+      "last_good_preserved": true
+    },
+    "NM": {
       "status": "error",
       "message": "The operation was aborted due to timeout",
       "last_good_preserved": true
@@ -240,6 +148,79 @@
     "OH": {
       "status": "ok",
       "count": 2
+    },
+    "OR": {
+      "status": "ok",
+      "count": 96
+    },
+    "NC": {
+      "status": "error",
+      "message": "The operation was aborted due to timeout",
+      "last_good_preserved": true
+    },
+    "PA": {
+      "status": "ok",
+      "count": 1
+    },
+    "ND": {
+      "status": "error",
+      "message": "HTTP 502",
+      "last_good_preserved": true
+    },
+    "SC": {
+      "status": "ok",
+      "count": 45
+    },
+    "OK": {
+      "status": "ok",
+      "count": 36
+    },
+    "TN": {
+      "status": "ok",
+      "count": 1
+    },
+    "SD": {
+      "status": "ok",
+      "count": 14
+    },
+    "RI": {
+      "status": "ok",
+      "count": 109
+    },
+    "TX": {
+      "status": "ok",
+      "count": 1
+    },
+    "VT": {
+      "status": "ok",
+      "count": 25
+    },
+    "WV": {
+      "status": "ok",
+      "count": 20
+    },
+    "WA": {
+      "status": "ok",
+      "count": 141
+    },
+    "VA": {
+      "status": "error",
+      "message": "HTTP 503",
+      "last_good_preserved": true
+    },
+    "UT": {
+      "status": "error",
+      "message": "The operation was aborted due to timeout",
+      "last_good_preserved": true
+    },
+    "WY": {
+      "status": "ok",
+      "count": 2
+    },
+    "WI": {
+      "status": "error",
+      "message": "HTTP 502",
+      "last_good_preserved": true
     }
   }
 }
