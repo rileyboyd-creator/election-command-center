@@ -4,14 +4,14 @@
   "state": "NC",
   "year": 2026,
   "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip",
-  "source_updated": "Wed, 04 Nov 2026 05:59:43 GMT",
-  "retrieved_at": "2026-11-04T06:17:52.295266+00:00",
+  "source_updated": "Wed, 04 Nov 2026 07:30:37 GMT",
+  "retrieved_at": "2026-11-04T07:33:20.989442+00:00",
   "status": "official-unofficial",
   "candidates": [
     {
-      "name": "Michael Whatley",
-      "party": "Republican",
-      "votes": 1640368
+      "name": "Shannon W. Bray",
+      "party": "Libertarian",
+      "votes": 55718
     },
     {
       "name": "Roy Cooper",
@@ -24,1009 +24,34 @@
       "votes": 36426
     },
     {
-      "name": "Shannon W. Bray",
-      "party": "Libertarian",
-      "votes": 55718
+      "name": "Michael Whatley",
+      "party": "Republican",
+      "votes": 1640368
     }
   ],
   "counties": [
     {
-      "name": "Brunswick",
-      "candidates": [
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 44936
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 690
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 1267
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 39795
-        }
-      ]
-    },
-    {
-      "name": "Bladen",
-      "candidates": [
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 5568
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 134
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 6084
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 182
-        }
-      ]
-    },
-    {
-      "name": "Davidson",
+      "name": "Carteret",
       "candidates": [
         {
           "name": "Shannon W. Bray",
           "party": "Libertarian",
-          "votes": 939
+          "votes": 645
         },
         {
           "name": "Roy Cooper",
           "party": "Democratic",
-          "votes": 22864
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 598
+          "votes": 12166
         },
         {
           "name": "Michael Whatley",
           "party": "Republican",
-          "votes": 36305
-        }
-      ]
-    },
-    {
-      "name": "Guilford",
-      "candidates": [
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 60844
+          "votes": 22019
         },
         {
           "name": "Michael Dublin",
           "party": "Green",
-          "votes": 1783
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 152260
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 2352
-        }
-      ]
-    },
-    {
-      "name": "Halifax",
-      "candidates": [
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 11584
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 108
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 5812
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 179
-        }
-      ]
-    },
-    {
-      "name": "Haywood",
-      "candidates": [
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 13776
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 504
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 342
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 13640
-        }
-      ]
-    },
-    {
-      "name": "Harnett",
-      "candidates": [
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 22011
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 21748
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 449
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 778
-        }
-      ]
-    },
-    {
-      "name": "Mecklenburg",
-      "candidates": [
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 333549
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 3983
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 97841
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 4582
-        }
-      ]
-    },
-    {
-      "name": "Mitchell",
-      "candidates": [
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 124
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 4054
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 69
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 2009
-        }
-      ]
-    },
-    {
-      "name": "Montgomery",
-      "candidates": [
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 76
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 3759
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 5046
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 122
-        }
-      ]
-    },
-    {
-      "name": "Moore",
-      "candidates": [
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 24092
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 19719
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 687
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 264
-        }
-      ]
-    },
-    {
-      "name": "Nash",
-      "candidates": [
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 206
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 23362
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 16883
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 380
-        }
-      ]
-    },
-    {
-      "name": "Surry",
-      "candidates": [
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 8539
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 220
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 368
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 14988
-        }
-      ]
-    },
-    {
-      "name": "Swain",
-      "candidates": [
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 71
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 2455
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 2497
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 98
-        }
-      ]
-    },
-    {
-      "name": "Transylvania",
-      "candidates": [
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 265
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 8705
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 7078
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 167
-        }
-      ]
-    },
-    {
-      "name": "Union",
-      "candidates": [
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 47765
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 844
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 1352
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 50622
-        }
-      ]
-    },
-    {
-      "name": "Stanly",
-      "candidates": [
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 15743
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 380
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 8034
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 243
-        }
-      ]
-    },
-    {
-      "name": "Stokes",
-      "candidates": [
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 384
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 206
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 11591
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 5286
-        }
-      ]
-    },
-    {
-      "name": "Buncombe",
-      "candidates": [
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 1540
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 1645
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 94346
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 33675
-        }
-      ]
-    },
-    {
-      "name": "Duplin",
-      "candidates": [
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 8718
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 6933
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 164
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 219
-        }
-      ]
-    },
-    {
-      "name": "Durham",
-      "candidates": [
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 17168
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 131025
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 1180
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 1109
-        }
-      ]
-    },
-    {
-      "name": "Henderson",
-      "candidates": [
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 858
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 29477
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 26056
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 524
-        }
-      ]
-    },
-    {
-      "name": "Hyde",
-      "candidates": [
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 896
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 15
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 31
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 1016
-        }
-      ]
-    },
-    {
-      "name": "Hertford",
-      "candidates": [
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 1776
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 3580
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 102
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 91
-        }
-      ]
-    },
-    {
-      "name": "Iredell",
-      "candidates": [
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 32955
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 1207
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 40997
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 630
-        }
-      ]
-    },
-    {
-      "name": "New Hanover",
-      "candidates": [
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 38636
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 929
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 1535
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 61640
-        }
-      ]
-    },
-    {
-      "name": "Northampton",
-      "candidates": [
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 37
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 78
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 4392
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 2479
-        }
-      ]
-    },
-    {
-      "name": "Wake",
-      "candidates": [
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 6017
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 3890
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 380365
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 132965
-        }
-      ]
-    },
-    {
-      "name": "Vance",
-      "candidates": [
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 4998
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 9442
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 155
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 80
-        }
-      ]
-    },
-    {
-      "name": "Cabarrus",
-      "candidates": [
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 50024
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 34910
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 1158
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 820
-        }
-      ]
-    },
-    {
-      "name": "Edgecombe",
-      "candidates": [
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 166
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 124
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 12391
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 5312
-        }
-      ]
-    },
-    {
-      "name": "Forsyth",
-      "candidates": [
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 2085
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 1323
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 101631
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 47533
-        }
-      ]
-    },
-    {
-      "name": "Jackson",
-      "candidates": [
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 9171
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 258
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 264
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 6373
-        }
-      ]
-    },
-    {
-      "name": "Johnston",
-      "candidates": [
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 705
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 1297
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 46068
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 40703
-        }
-      ]
-    },
-    {
-      "name": "Orange",
-      "candidates": [
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 509
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 614
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 10980
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 60050
-        }
-      ]
-    },
-    {
-      "name": "Pamlico",
-      "candidates": [
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 91
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 33
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 2470
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 3487
-        }
-      ]
-    },
-    {
-      "name": "Onslow",
-      "candidates": [
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 560
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 21129
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 1128
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 27531
-        }
-      ]
-    },
-    {
-      "name": "Pasquotank",
-      "candidates": [
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 93
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 3892
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 4049
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 164
-        }
-      ]
-    },
-    {
-      "name": "Pender",
-      "candidates": [
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 10898
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 470
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 14051
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 213
-        }
-      ]
-    },
-    {
-      "name": "Catawba",
-      "candidates": [
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 24808
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 514
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 33896
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 910
+          "votes": 312
         }
       ]
     },
@@ -1039,14 +64,14 @@
           "votes": 77
         },
         {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 4503
-        },
-        {
           "name": "Shannon W. Bray",
           "party": "Libertarian",
           "votes": 122
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 4503
         },
         {
           "name": "Roy Cooper",
@@ -1056,27 +81,102 @@
       ]
     },
     {
-      "name": "Carteret",
+      "name": "Catawba",
       "candidates": [
         {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 22019
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 910
         },
         {
           "name": "Michael Dublin",
           "party": "Green",
-          "votes": 312
+          "votes": 514
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 33896
         },
         {
           "name": "Roy Cooper",
           "party": "Democratic",
-          "votes": 12166
+          "votes": 24808
+        }
+      ]
+    },
+    {
+      "name": "Forsyth",
+      "candidates": [
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 1323
         },
         {
           "name": "Shannon W. Bray",
           "party": "Libertarian",
-          "votes": 645
+          "votes": 2085
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 47533
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 101631
+        }
+      ]
+    },
+    {
+      "name": "Franklin",
+      "candidates": [
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 235
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 17367
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 15072
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 486
+        }
+      ]
+    },
+    {
+      "name": "Lincoln",
+      "candidates": [
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 274
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 23688
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 13707
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 619
         }
       ]
     },
@@ -1084,9 +184,9 @@
       "name": "Lenoir",
       "candidates": [
         {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 10459
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 8727
         },
         {
           "name": "Michael Dublin",
@@ -1094,14 +194,14 @@
           "votes": 144
         },
         {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 10459
+        },
+        {
           "name": "Shannon W. Bray",
           "party": "Libertarian",
           "votes": 214
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 8727
         }
       ]
     },
@@ -1114,6 +214,11 @@
           "votes": 426
         },
         {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 195
+        },
+        {
           "name": "Michael Whatley",
           "party": "Republican",
           "votes": 9228
@@ -1122,11 +227,6 @@
           "name": "Roy Cooper",
           "party": "Democratic",
           "votes": 11368
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 195
         }
       ]
     },
@@ -1144,70 +244,100 @@
           "votes": 293
         },
         {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 9234
-        },
-        {
           "name": "Roy Cooper",
           "party": "Democratic",
           "votes": 6513
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 9234
         }
       ]
     },
     {
-      "name": "Lincoln",
+      "name": "Johnston",
       "candidates": [
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 1297
+        },
         {
           "name": "Michael Whatley",
           "party": "Republican",
-          "votes": 23688
+          "votes": 40703
         },
         {
           "name": "Roy Cooper",
           "party": "Democratic",
-          "votes": 13707
+          "votes": 46068
         },
         {
           "name": "Michael Dublin",
           "party": "Green",
-          "votes": 274
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 619
+          "votes": 705
         }
       ]
     },
     {
-      "name": "Person",
+      "name": "Jones",
       "candidates": [
         {
           "name": "Michael Whatley",
           "party": "Republican",
-          "votes": 8130
+          "votes": 2140
         },
         {
           "name": "Michael Dublin",
           "party": "Green",
-          "votes": 139
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 7398
+          "votes": 41
         },
         {
           "name": "Shannon W. Bray",
           "party": "Libertarian",
-          "votes": 246
+          "votes": 67
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 1677
+        }
+      ]
+    },
+    {
+      "name": "Orange",
+      "candidates": [
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 60050
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 509
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 614
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 10980
         }
       ]
     },
     {
       "name": "Pitt",
       "candidates": [
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 457
+        },
         {
           "name": "Michael Whatley",
           "party": "Republican",
@@ -1219,11 +349,6 @@
           "votes": 38259
         },
         {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 457
-        },
-        {
           "name": "Shannon W. Bray",
           "party": "Libertarian",
           "votes": 736
@@ -1231,52 +356,27 @@
       ]
     },
     {
-      "name": "Polk",
+      "name": "Pender",
       "candidates": [
         {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 136
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 4667
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 14051
         },
         {
           "name": "Michael Dublin",
           "party": "Green",
-          "votes": 87
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 5198
-        }
-      ]
-    },
-    {
-      "name": "Perquimans",
-      "candidates": [
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 42
+          "votes": 213
         },
         {
           "name": "Roy Cooper",
           "party": "Democratic",
-          "votes": 2000
+          "votes": 10898
         },
         {
           "name": "Shannon W. Bray",
           "party": "Libertarian",
-          "votes": 64
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 3488
+          "votes": 470
         }
       ]
     },
@@ -1289,9 +389,9 @@
           "votes": 656
         },
         {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 416
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 15203
         },
         {
           "name": "Michael Whatley",
@@ -1299,9 +399,159 @@
           "votes": 31328
         },
         {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 416
+        }
+      ]
+    },
+    {
+      "name": "Pamlico",
+      "candidates": [
+        {
           "name": "Roy Cooper",
           "party": "Democratic",
-          "votes": 15203
+          "votes": 2470
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 3487
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 91
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 33
+        }
+      ]
+    },
+    {
+      "name": "Pasquotank",
+      "candidates": [
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 164
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 3892
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 4049
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 93
+        }
+      ]
+    },
+    {
+      "name": "Perquimans",
+      "candidates": [
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 64
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 3488
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 2000
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 42
+        }
+      ]
+    },
+    {
+      "name": "Wake",
+      "candidates": [
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 132965
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 380365
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 6017
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 3890
+        }
+      ]
+    },
+    {
+      "name": "Clay",
+      "candidates": [
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 42
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 1844
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 3787
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 67
+        }
+      ]
+    },
+    {
+      "name": "Cleveland",
+      "candidates": [
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 14588
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 284
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 19208
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 459
         }
       ]
     },
@@ -1314,9 +564,9 @@
           "votes": 120
         },
         {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 8638
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 182
         },
         {
           "name": "Roy Cooper",
@@ -1324,15 +574,20 @@
           "votes": 3371
         },
         {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 182
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 8638
         }
       ]
     },
     {
       "name": "Chowan",
       "candidates": [
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 73
+        },
         {
           "name": "Michael Whatley",
           "party": "Republican",
@@ -1347,36 +602,56 @@
           "name": "Michael Dublin",
           "party": "Green",
           "votes": 37
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 73
         }
       ]
     },
     {
-      "name": "Clay",
+      "name": "Chatham",
       "candidates": [
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 3787
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 42
-        },
         {
           "name": "Shannon W. Bray",
           "party": "Libertarian",
-          "votes": 67
+          "votes": 464
         },
         {
           "name": "Roy Cooper",
           "party": "Democratic",
-          "votes": 1844
+          "votes": 28235
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 269
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 14075
+        }
+      ]
+    },
+    {
+      "name": "Graham",
+      "candidates": [
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 81
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 43
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 2606
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 976
         }
       ]
     },
@@ -1384,9 +659,9 @@
       "name": "Gaston",
       "candidates": [
         {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 40427
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 1202
         },
         {
           "name": "Michael Whatley",
@@ -1394,14 +669,39 @@
           "votes": 40447
         },
         {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 40427
+        },
+        {
           "name": "Michael Dublin",
           "party": "Green",
           "votes": 745
+        }
+      ]
+    },
+    {
+      "name": "Greene",
+      "candidates": [
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 3055
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 44
         },
         {
           "name": "Shannon W. Bray",
           "party": "Libertarian",
-          "votes": 1202
+          "votes": 66
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 3080
         }
       ]
     },
@@ -1409,14 +709,9 @@
       "name": "Gates",
       "candidates": [
         {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 61
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 1956
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 35
         },
         {
           "name": "Michael Whatley",
@@ -1424,20 +719,20 @@
           "votes": 2125
         },
         {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 35
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 1956
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 61
         }
       ]
     },
     {
       "name": "Granville",
       "candidates": [
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 13220
-        },
         {
           "name": "Michael Dublin",
           "party": "Green",
@@ -1452,31 +747,36 @@
           "name": "Shannon W. Bray",
           "party": "Libertarian",
           "votes": 309
-        }
-      ]
-    },
-    {
-      "name": "Graham",
-      "candidates": [
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 2606
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 43
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 81
         },
         {
           "name": "Roy Cooper",
           "party": "Democratic",
-          "votes": 976
+          "votes": 13220
+        }
+      ]
+    },
+    {
+      "name": "Mecklenburg",
+      "candidates": [
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 333549
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 97841
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 4582
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 3983
         }
       ]
     },
@@ -1484,14 +784,9 @@
       "name": "Mcdowell",
       "candidates": [
         {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 10103
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 282
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 184
         },
         {
           "name": "Roy Cooper",
@@ -1499,9 +794,64 @@
           "votes": 5794
         },
         {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 282
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 10103
+        }
+      ]
+    },
+    {
+      "name": "Martin",
+      "candidates": [
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 4160
+        },
+        {
           "name": "Michael Dublin",
           "party": "Green",
-          "votes": 184
+          "votes": 63
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 4803
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 124
+        }
+      ]
+    },
+    {
+      "name": "Madison",
+      "candidates": [
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 167
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 5239
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 209
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 4862
         }
       ]
     },
@@ -1509,9 +859,9 @@
       "name": "Robeson",
       "candidates": [
         {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 14306
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 14492
         },
         {
           "name": "Michael Dublin",
@@ -1519,14 +869,14 @@
           "votes": 329
         },
         {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 14306
+        },
+        {
           "name": "Shannon W. Bray",
           "party": "Libertarian",
           "votes": 374
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 14492
         }
       ]
     },
@@ -1539,6 +889,11 @@
           "votes": 19032
         },
         {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 340
+        },
+        {
           "name": "Shannon W. Bray",
           "party": "Libertarian",
           "votes": 657
@@ -1547,11 +902,56 @@
           "name": "Roy Cooper",
           "party": "Democratic",
           "votes": 14099
+        }
+      ]
+    },
+    {
+      "name": "Rowan",
+      "candidates": [
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 28158
         },
         {
           "name": "Michael Dublin",
           "party": "Green",
-          "votes": 340
+          "votes": 480
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 21378
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 752
+        }
+      ]
+    },
+    {
+      "name": "Polk",
+      "candidates": [
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 87
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 136
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 5198
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 4667
         }
       ]
     },
@@ -1581,77 +981,27 @@
       ]
     },
     {
-      "name": "Warren",
-      "candidates": [
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 76
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 52
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 5247
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 2690
-        }
-      ]
-    },
-    {
-      "name": "Washington",
+      "name": "Wayne",
       "candidates": [
         {
           "name": "Michael Dublin",
           "party": "Green",
-          "votes": 31
+          "votes": 265
         },
         {
           "name": "Roy Cooper",
           "party": "Democratic",
-          "votes": 2707
+          "votes": 19498
         },
         {
           "name": "Michael Whatley",
           "party": "Republican",
-          "votes": 1738
+          "votes": 18406
         },
         {
           "name": "Shannon W. Bray",
           "party": "Libertarian",
-          "votes": 53
-        }
-      ]
-    },
-    {
-      "name": "Cumberland",
-      "candidates": [
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 29744
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 1241
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 63170
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 983
+          "votes": 401
         }
       ]
     },
@@ -1681,33 +1031,63 @@
       ]
     },
     {
-      "name": "Rowan",
+      "name": "Cumberland",
       "candidates": [
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 63170
+        },
         {
           "name": "Michael Whatley",
           "party": "Republican",
-          "votes": 28158
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 480
+          "votes": 29744
         },
         {
           "name": "Shannon W. Bray",
           "party": "Libertarian",
-          "votes": 752
+          "votes": 1241
         },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 983
+        }
+      ]
+    },
+    {
+      "name": "Guilford",
+      "candidates": [
         {
           "name": "Roy Cooper",
           "party": "Democratic",
-          "votes": 21378
+          "votes": 152260
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 2352
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 60844
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 1783
         }
       ]
     },
     {
       "name": "Rutherford",
       "candidates": [
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 8011
+        },
         {
           "name": "Michael Dublin",
           "party": "Green",
@@ -1719,11 +1099,6 @@
           "votes": 353
         },
         {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 8011
-        },
-        {
           "name": "Michael Whatley",
           "party": "Republican",
           "votes": 14320
@@ -1731,52 +1106,52 @@
       ]
     },
     {
-      "name": "Sampson",
+      "name": "Stanly",
       "candidates": [
         {
           "name": "Michael Whatley",
           "party": "Republican",
-          "votes": 9636
+          "votes": 15743
         },
         {
           "name": "Michael Dublin",
           "party": "Green",
-          "votes": 109
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 195
+          "votes": 243
         },
         {
           "name": "Roy Cooper",
           "party": "Democratic",
-          "votes": 8484
+          "votes": 8034
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 380
         }
       ]
     },
     {
-      "name": "Wayne",
+      "name": "Yadkin",
       "candidates": [
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 18406
-        },
         {
           "name": "Roy Cooper",
           "party": "Democratic",
-          "votes": 19498
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 401
+          "votes": 3827
         },
         {
           "name": "Michael Dublin",
           "party": "Green",
-          "votes": 265
+          "votes": 147
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 245
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 9324
         }
       ]
     },
@@ -1794,14 +1169,14 @@
           "votes": 283
         },
         {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 14877
-        },
-        {
           "name": "Shannon W. Bray",
           "party": "Libertarian",
           "votes": 366
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 14877
         }
       ]
     },
@@ -1814,6 +1189,11 @@
           "votes": 290
         },
         {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 15881
+        },
+        {
           "name": "Roy Cooper",
           "party": "Democratic",
           "votes": 6939
@@ -1822,27 +1202,37 @@
           "name": "Shannon W. Bray",
           "party": "Libertarian",
           "votes": 446
+        }
+      ]
+    },
+    {
+      "name": "Currituck",
+      "candidates": [
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 4114
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 119
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 204
         },
         {
           "name": "Michael Whatley",
           "party": "Republican",
-          "votes": 15881
+          "votes": 8260
         }
       ]
     },
     {
       "name": "Ashe",
       "candidates": [
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 129
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 4464
-        },
         {
           "name": "Michael Whatley",
           "party": "Republican",
@@ -1852,17 +1242,22 @@
           "name": "Shannon W. Bray",
           "party": "Libertarian",
           "votes": 228
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 4464
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 129
         }
       ]
     },
     {
       "name": "Avery",
       "candidates": [
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 109
-        },
         {
           "name": "Roy Cooper",
           "party": "Democratic",
@@ -1874,6 +1269,11 @@
           "votes": 4381
         },
         {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 109
+        },
+        {
           "name": "Michael Dublin",
           "party": "Green",
           "votes": 67
@@ -1881,77 +1281,52 @@
       ]
     },
     {
-      "name": "Scotland",
+      "name": "Stokes",
       "candidates": [
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 74
-        },
         {
           "name": "Shannon W. Bray",
           "party": "Libertarian",
-          "votes": 129
+          "votes": 384
         },
         {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 4445
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 206
         },
         {
           "name": "Roy Cooper",
           "party": "Democratic",
-          "votes": 5738
+          "votes": 5286
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 11591
         }
       ]
     },
     {
-      "name": "Yadkin",
+      "name": "Swain",
       "candidates": [
         {
           "name": "Michael Whatley",
           "party": "Republican",
-          "votes": 9324
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 147
+          "votes": 2497
         },
         {
           "name": "Shannon W. Bray",
           "party": "Libertarian",
-          "votes": 245
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 3827
-        }
-      ]
-    },
-    {
-      "name": "Wilson",
-      "candidates": [
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 304
+          "votes": 98
         },
         {
           "name": "Michael Dublin",
           "party": "Green",
-          "votes": 220
+          "votes": 71
         },
         {
           "name": "Roy Cooper",
           "party": "Democratic",
-          "votes": 17063
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 11500
+          "votes": 2455
         }
       ]
     },
@@ -1959,14 +1334,14 @@
       "name": "Yancey",
       "candidates": [
         {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 4301
-        },
-        {
           "name": "Roy Cooper",
           "party": "Democratic",
           "votes": 3771
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 4301
         },
         {
           "name": "Shannon W. Bray",
@@ -1981,277 +1356,52 @@
       ]
     },
     {
-      "name": "Davie",
+      "name": "Wilson",
       "candidates": [
         {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 11349
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 220
         },
         {
           "name": "Shannon W. Bray",
           "party": "Libertarian",
-          "votes": 279
+          "votes": 304
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 11500
         },
         {
           "name": "Roy Cooper",
           "party": "Democratic",
-          "votes": 6691
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 144
+          "votes": 17063
         }
       ]
     },
     {
-      "name": "Hoke",
-      "candidates": [
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 166
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 10390
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 275
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 5108
-        }
-      ]
-    },
-    {
-      "name": "Jones",
+      "name": "Davidson",
       "candidates": [
         {
           "name": "Michael Whatley",
           "party": "Republican",
-          "votes": 2140
+          "votes": 36305
         },
         {
           "name": "Roy Cooper",
           "party": "Democratic",
-          "votes": 1677
+          "votes": 22864
         },
         {
           "name": "Michael Dublin",
           "party": "Green",
-          "votes": 41
+          "votes": 598
         },
         {
           "name": "Shannon W. Bray",
           "party": "Libertarian",
-          "votes": 67
-        }
-      ]
-    },
-    {
-      "name": "Franklin",
-      "candidates": [
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 235
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 486
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 15072
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 17367
-        }
-      ]
-    },
-    {
-      "name": "Madison",
-      "candidates": [
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 4862
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 5239
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 209
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 167
-        }
-      ]
-    },
-    {
-      "name": "Martin",
-      "candidates": [
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 63
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 4803
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 4160
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 124
-        }
-      ]
-    },
-    {
-      "name": "Cleveland",
-      "candidates": [
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 14588
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 284
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 459
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 19208
-        }
-      ]
-    },
-    {
-      "name": "Greene",
-      "candidates": [
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 66
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 44
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 3080
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 3055
-        }
-      ]
-    },
-    {
-      "name": "Alamance",
-      "candidates": [
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 28138
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 993
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 38109
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 609
-        }
-      ]
-    },
-    {
-      "name": "Currituck",
-      "candidates": [
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 119
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 4114
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 8260
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 204
-        }
-      ]
-    },
-    {
-      "name": "Columbus",
-      "candidates": [
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 223
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 7160
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 124
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 9449
+          "votes": 939
         }
       ]
     },
@@ -2264,9 +1414,9 @@
           "votes": 174
         },
         {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 9430
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 307
         },
         {
           "name": "Roy Cooper",
@@ -2274,9 +1424,709 @@
           "votes": 9211
         },
         {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 9430
+        }
+      ]
+    },
+    {
+      "name": "Haywood",
+      "candidates": [
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 13640
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 13776
+        },
+        {
           "name": "Shannon W. Bray",
           "party": "Libertarian",
-          "votes": 307
+          "votes": 504
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 342
+        }
+      ]
+    },
+    {
+      "name": "Halifax",
+      "candidates": [
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 108
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 179
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 5812
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 11584
+        }
+      ]
+    },
+    {
+      "name": "Harnett",
+      "candidates": [
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 21748
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 22011
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 449
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 778
+        }
+      ]
+    },
+    {
+      "name": "Brunswick",
+      "candidates": [
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 39795
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 44936
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 690
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 1267
+        }
+      ]
+    },
+    {
+      "name": "Bladen",
+      "candidates": [
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 5568
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 6084
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 134
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 182
+        }
+      ]
+    },
+    {
+      "name": "Nash",
+      "candidates": [
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 206
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 23362
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 380
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 16883
+        }
+      ]
+    },
+    {
+      "name": "Moore",
+      "candidates": [
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 264
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 24092
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 687
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 19719
+        }
+      ]
+    },
+    {
+      "name": "Vance",
+      "candidates": [
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 155
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 4998
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 9442
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 80
+        }
+      ]
+    },
+    {
+      "name": "Union",
+      "candidates": [
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 1352
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 50622
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 844
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 47765
+        }
+      ]
+    },
+    {
+      "name": "Transylvania",
+      "candidates": [
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 7078
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 167
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 8705
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 265
+        }
+      ]
+    },
+    {
+      "name": "Sampson",
+      "candidates": [
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 109
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 8484
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 9636
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 195
+        }
+      ]
+    },
+    {
+      "name": "Scotland",
+      "candidates": [
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 4445
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 5738
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 74
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 129
+        }
+      ]
+    },
+    {
+      "name": "Durham",
+      "candidates": [
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 1109
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 17168
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 131025
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 1180
+        }
+      ]
+    },
+    {
+      "name": "Edgecombe",
+      "candidates": [
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 12391
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 5312
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 166
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 124
+        }
+      ]
+    },
+    {
+      "name": "Davie",
+      "candidates": [
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 144
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 279
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 11349
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 6691
+        }
+      ]
+    },
+    {
+      "name": "Duplin",
+      "candidates": [
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 219
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 6933
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 8718
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 164
+        }
+      ]
+    },
+    {
+      "name": "Hertford",
+      "candidates": [
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 1776
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 91
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 102
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 3580
+        }
+      ]
+    },
+    {
+      "name": "Hoke",
+      "candidates": [
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 5108
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 10390
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 166
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 275
+        }
+      ]
+    },
+    {
+      "name": "Hyde",
+      "candidates": [
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 896
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 15
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 31
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 1016
+        }
+      ]
+    },
+    {
+      "name": "Henderson",
+      "candidates": [
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 524
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 858
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 26056
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 29477
+        }
+      ]
+    },
+    {
+      "name": "Buncombe",
+      "candidates": [
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 1540
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 94346
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 1645
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 33675
+        }
+      ]
+    },
+    {
+      "name": "New Hanover",
+      "candidates": [
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 929
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 38636
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 61640
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 1535
+        }
+      ]
+    },
+    {
+      "name": "Northampton",
+      "candidates": [
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 78
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 37
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 4392
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 2479
+        }
+      ]
+    },
+    {
+      "name": "Onslow",
+      "candidates": [
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 1128
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 27531
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 560
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 21129
+        }
+      ]
+    },
+    {
+      "name": "Surry",
+      "candidates": [
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 14988
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 8539
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 220
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 368
+        }
+      ]
+    },
+    {
+      "name": "Jackson",
+      "candidates": [
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 6373
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 258
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 264
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 9171
+        }
+      ]
+    },
+    {
+      "name": "Iredell",
+      "candidates": [
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 630
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 32955
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 40997
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 1207
+        }
+      ]
+    },
+    {
+      "name": "Cabarrus",
+      "candidates": [
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 50024
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 34910
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 1158
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 820
         }
       ]
     },
@@ -2309,6 +2159,11 @@
       "name": "Tyrrell",
       "candidates": [
         {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 613
+        },
+        {
           "name": "Michael Dublin",
           "party": "Green",
           "votes": 14
@@ -2319,11 +2174,6 @@
           "votes": 38
         },
         {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 613
-        },
-        {
           "name": "Michael Whatley",
           "party": "Republican",
           "votes": 690
@@ -2331,13 +2181,108 @@
       ]
     },
     {
-      "name": "Caldwell",
+      "name": "Warren",
       "candidates": [
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 2690
+        },
         {
           "name": "Michael Dublin",
           "party": "Green",
-          "votes": 266
+          "votes": 52
         },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 76
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 5247
+        }
+      ]
+    },
+    {
+      "name": "Washington",
+      "candidates": [
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 1738
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 2707
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 53
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 31
+        }
+      ]
+    },
+    {
+      "name": "Montgomery",
+      "candidates": [
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 3759
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 76
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 5046
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 122
+        }
+      ]
+    },
+    {
+      "name": "Mitchell",
+      "candidates": [
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 4054
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 124
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 69
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 2009
+        }
+      ]
+    },
+    {
+      "name": "Caldwell",
+      "candidates": [
         {
           "name": "Michael Whatley",
           "party": "Republican",
@@ -2349,6 +2294,11 @@
           "votes": 532
         },
         {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 266
+        },
+        {
           "name": "Roy Cooper",
           "party": "Democratic",
           "votes": 9021
@@ -2356,13 +2306,83 @@
       ]
     },
     {
-      "name": "Burke",
+      "name": "Person",
+      "candidates": [
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 8130
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 139
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 246
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 7398
+        }
+      ]
+    },
+    {
+      "name": "Columbus",
       "candidates": [
         {
           "name": "Shannon W. Bray",
           "party": "Libertarian",
-          "votes": 438
+          "votes": 223
         },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 7160
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 124
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 9449
+        }
+      ]
+    },
+    {
+      "name": "Alamance",
+      "candidates": [
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 993
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 38109
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 609
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 28138
+        }
+      ]
+    },
+    {
+      "name": "Burke",
+      "candidates": [
         {
           "name": "Roy Cooper",
           "party": "Democratic",
@@ -2374,84 +2394,14 @@
           "votes": 292
         },
         {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 438
+        },
+        {
           "name": "Michael Whatley",
           "party": "Republican",
           "votes": 17401
-        }
-      ]
-    },
-    {
-      "name": "Chatham",
-      "candidates": [
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 464
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 269
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 28235
-        },
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 14075
-        }
-      ]
-    },
-    {
-      "name": "Alexander",
-      "candidates": [
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 9405
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 3723
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 123
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 224
-        }
-      ]
-    },
-    {
-      "name": "Bertie",
-      "candidates": [
-        {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 2362
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 4227
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "Libertarian",
-          "votes": 47
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 31
         }
       ]
     },
@@ -2477,6 +2427,56 @@
           "name": "Michael Dublin",
           "party": "Green",
           "votes": 45
+        }
+      ]
+    },
+    {
+      "name": "Alexander",
+      "candidates": [
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 3723
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 224
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 123
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 9405
+        }
+      ]
+    },
+    {
+      "name": "Bertie",
+      "candidates": [
+        {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 2362
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 4227
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "Libertarian",
+          "votes": 47
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": 31
         }
       ]
     },
@@ -2509,9 +2509,9 @@
       "name": "Anson",
       "candidates": [
         {
-          "name": "Michael Whatley",
-          "party": "Republican",
-          "votes": 3468
+          "name": "Roy Cooper",
+          "party": "Democratic",
+          "votes": 4373
         },
         {
           "name": "Michael Dublin",
@@ -2519,14 +2519,14 @@
           "votes": 65
         },
         {
+          "name": "Michael Whatley",
+          "party": "Republican",
+          "votes": 3468
+        },
+        {
           "name": "Shannon W. Bray",
           "party": "Libertarian",
           "votes": 107
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "Democratic",
-          "votes": 4373
         }
       ]
     }
