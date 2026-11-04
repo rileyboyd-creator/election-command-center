@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-04T00:58:09.406Z",
+  "checked_at": "2026-11-04T01:50:49.027Z",
   "states": {
     "FL": {
       "status": "ok"
@@ -11,24 +11,34 @@
       "status": "ok"
     },
     "KS": {
-      "status": "ok"
+      "status": "error",
+      "message": "HTTP 502",
+      "last_good_preserved": true
     },
     "NC": {
-      "status": "ok"
+      "status": "error",
+      "message": "HTTP 502",
+      "last_good_preserved": true
     },
     "MI": {
-      "status": "ok"
+      "status": "error",
+      "message": "HTTP 502",
+      "last_good_preserved": true
     },
     "OH": {
       "status": "error",
-      "message": "The operation was aborted due to timeout",
+      "message": "HTTP 502",
       "last_good_preserved": true
     },
     "GA": {
-      "status": "ok"
+      "status": "error",
+      "message": "HTTP 502",
+      "last_good_preserved": true
     },
     "ME": {
-      "status": "ok"
+      "status": "error",
+      "message": "HTTP 502",
+      "last_good_preserved": true
     },
     "AK": {
       "status": "error",

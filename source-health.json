@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-04T00:56:54.444Z",
-  "status": "error",
-  "last_data_update": "2026-11-04T00:02:44.179Z",
-  "message": "The operation was aborted due to timeout"
+  "checked_at": "2026-11-04T01:50:01.261Z",
+  "status": "updated",
+  "last_data_update": "2026-11-04T01:50:12.696Z",
+  "message": "Validated source snapshot saved from civicAPI. Source timestamps may predate retrieval; inspect staleness."
 }
