@@ -1,55 +1,35 @@
 {
-  "checked_at": "2026-11-04T04:19:56.212Z",
+  "checked_at": "2026-11-04T05:18:54.344Z",
   "states": {
     "FL": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
+      "status": "ok"
     },
     "IA": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
+      "status": "ok"
     },
     "TX": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
+      "status": "ok"
     },
     "KS": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
+      "status": "ok"
     },
     "NC": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
+      "status": "ok"
     },
     "MI": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
+      "status": "ok"
     },
     "OH": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
+      "status": "ok"
     },
     "GA": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
+      "status": "ok"
     },
     "ME": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
+      "status": "ok"
     },
     "AK": {
-      "status": "error",
-      "message": "HTTP 502",
-      "last_good_preserved": true
+      "status": "ok"
     }
   }
 }
