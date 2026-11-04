@@ -1,14 +1,20 @@
 {
-  "checked_at": "2026-11-04T01:50:49.027Z",
+  "checked_at": "2026-11-04T02:32:13.171Z",
   "states": {
     "FL": {
-      "status": "ok"
+      "status": "error",
+      "message": "HTTP 502",
+      "last_good_preserved": true
     },
     "IA": {
-      "status": "ok"
+      "status": "error",
+      "message": "HTTP 502",
+      "last_good_preserved": true
     },
     "TX": {
-      "status": "ok"
+      "status": "error",
+      "message": "HTTP 502",
+      "last_good_preserved": true
     },
     "KS": {
       "status": "error",

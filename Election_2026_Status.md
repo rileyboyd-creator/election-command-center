@@ -1,8 +1,8 @@
 # Election 2026 — latest status
 
-Refresh check: 2026-11-04T01:50:01.261Z
+Refresh check: 2026-11-04T02:32:11.943Z
 Source snapshot: 2026-11-04T01:50:12.696Z
-Feed health: updated — Validated source snapshot saved from civicAPI. Source timestamps may predate retrieval; inspect staleness.
+Feed health: error — civicAPI senate HTTP 502
 
 ## Seat allocations
 - house: Democratic caucus 17; Republican caucus 27; other 0; uncalled 391 / 435. Not-up subsets: D 0, R 0, other 0. Status: projection. Source: [civicAPI](https://civicapi.org/api/v2/race/87524), timestamp 2026-11-04T01:49:51.633Z.
