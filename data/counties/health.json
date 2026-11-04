@@ -1,42 +1,44 @@
 {
-  "checked_at": "2026-11-04T03:23:57.458Z",
+  "checked_at": "2026-11-04T04:19:56.212Z",
   "states": {
     "FL": {
       "status": "error",
-      "message": "The operation was aborted due to timeout",
+      "message": "HTTP 502",
       "last_good_preserved": true
     },
     "IA": {
       "status": "error",
-      "message": "The operation was aborted due to timeout",
+      "message": "HTTP 502",
       "last_good_preserved": true
     },
     "TX": {
-      "status": "ok"
+      "status": "error",
+      "message": "HTTP 502",
+      "last_good_preserved": true
     },
     "KS": {
       "status": "error",
-      "message": "The operation was aborted due to timeout",
+      "message": "HTTP 502",
       "last_good_preserved": true
     },
     "NC": {
       "status": "error",
-      "message": "The operation was aborted due to timeout",
+      "message": "HTTP 502",
       "last_good_preserved": true
     },
     "MI": {
       "status": "error",
-      "message": "The operation was aborted due to timeout",
+      "message": "HTTP 502",
       "last_good_preserved": true
     },
     "OH": {
       "status": "error",
-      "message": "The operation was aborted due to timeout",
+      "message": "HTTP 502",
       "last_good_preserved": true
     },
     "GA": {
       "status": "error",
-      "message": "HTTP 500",
+      "message": "HTTP 502",
       "last_good_preserved": true
     },
     "ME": {

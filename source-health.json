@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-04T03:22:54.668Z",
+  "checked_at": "2026-11-04T04:18:56.475Z",
   "status": "error",
   "last_data_update": "2026-11-04T01:50:12.696Z",
-  "message": "civicAPI senate HTTP 500"
+  "message": "The operation was aborted due to timeout"
 }
